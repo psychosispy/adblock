@@ -3,19 +3,14 @@
 # 下载规则
 #curl -o i-AdGuard_cookie.txt https://filters.adtidy.org/extension/ublock/filters/18_optimized.txt
 #curl -o i-AdGuard_Popups.txt https://filters.adtidy.org/extension/ublock/filters/19_optimized.txt
-#curl -o i-EasyList.txt https://easylist-downloads.adblockplus.org/easylist-minified.txt
-curl -o i-AdGuard_Base.txt https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
-curl -o i-AdGuard_Chinese.txt https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt
+curl -o i-EasyList.txt https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt
+curl -o i-EasyList_Chinese.txt https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt
 curl -o i-AdGuard_AppBanners.txt https://filters.adtidy.org/extension/ublock/filters/20_optimized.txt
 curl -o i-AdGuard_MobileAds.txt https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt
 curl -o i-cjx-annoyance.txt https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
 curl -o i-antiadblockfilters.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-CN.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-Intl.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt
-#curl -o i-xinggsf.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
-curl -o i-ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-
-
 curl -o wlist.txt https://raw.githubusercontent.com/psychosispy/ads/main/wlist.txt
 
 # 合并规则并去除注释、重复项

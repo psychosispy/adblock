@@ -1,0 +1,3 @@
+pixiv.net##div.ad-frame-container.overlay.geta.t_overray2
+pixiv.net##.cool-ad-footer,.multi-ads-area,.ad,[width="224"][height="224"]
+www.pixiv.net##div.ad-footer,div.hover-item,div.ads_area
