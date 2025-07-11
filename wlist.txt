@@ -1,0 +1,4 @@
+##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
+www.google.com.hk###taw,#bottomads
+www.google.com###taw,#bottomads
+||zhimg.com/v2-*.jpeg

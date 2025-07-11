@@ -1,0 +1,26 @@
+name: Generate ads.txt
+on:
+  schedule:
+    - cron: '0 20,8 * * *'
+  push:
+  workflow_dispatch:
+
+jobs:
+  build-ads:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Generate ads.txt
+        run: bash ./main.sh
+      - name: Commit and push ads.txt
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add ads.txt
+          git commit -m "Update ads.txt at $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
