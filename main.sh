@@ -12,6 +12,10 @@ curl -o i-cjx-annoyance.txt https://raw.githubusercontent.com/cjx82630/cjxlist/m
 curl -o i-antiadblockfilters.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-CN.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-Intl.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt
+curl -o i-xinggsf.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
+curl -o i-ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+
+
 curl -o wlist.txt https://raw.githubusercontent.com/psychosispy/ads/main/wlist.txt
 
 # 合并规则并去除注释、重复项
