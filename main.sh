@@ -11,8 +11,8 @@ curl -o i-cjx-annoyance.txt https://raw.githubusercontent.com/cjx82630/cjxlist/m
 curl -o i-antiadblockfilters.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 curl -o i-CN.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
 curl -o i-Intl.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt
-curl -o i-addlist.txt https://raw.githubusercontent.com/psychosispy/ads/main/i-addlist.txt
-curl -o wlist.txt https://raw.githubusercontent.com/psychosispy/ads/main/wlist.txt
+curl -o i-addlist.txt https://raw.githubusercontent.com/psychosispy/adblock/refs/heads/main/i-addlist.txt
+curl -o wlist.txt https://raw.githubusercontent.com/psychosispy/adblock/refs/heads/main/main/wlist.txt
 
 # 合并规则并去除注释、重复项
 cat i-*.txt > i-merged.txt
