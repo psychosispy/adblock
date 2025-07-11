@@ -2,8 +2,8 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自AdGuard，以及补充的一些规则
 ! Homepage: https://github.com/psychosispy/adblock
-! Version: 2025-07-11 17:50:34
-! Total count: 90092
+! Version: 2025-07-11 17:51:27
+! Total count: 90089
 
 ###AC_ad
 ###AD_160
@@ -33535,13 +33535,11 @@ pixiv.net##.ad-footer
 pixiv.net##.ad-frame-container
 pixiv.net##.ad-mobile-anchor
 pixiv.net##.ads_anchor
-pixiv.net##.cool-ad-footer,.multi-ads-area,.ad,[width="224"][height="224"]
 pixiv.net##.grid_ad
 pixiv.net##.list-none:has(> div > [id^="adsdk"])
 pixiv.net##.multi-ads-area
 pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 pixiv.net##a[target="premium_noads"]
-pixiv.net##div.ad-frame-container.overlay.geta.t_overray2
 pixiv.net##div[class="overlay geta"]
 pixiv.net##div[id^="adsdk-"]
 pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
@@ -39605,7 +39603,6 @@ www.pixiv.net###column-misc > .ad + .item:style(margin-top: 0 !important)
 www.pixiv.net###js-mount-point-header iframe + a[href^="/premium/lead/"]
 www.pixiv.net##+js(rc, with-ad)
 www.pixiv.net##.premium-lead-premium-campaign
-www.pixiv.net##div.ad-footer,div.hover-item,div.ads_area[Adblock Plus 2.0]
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 www.playno1.com##.eis_box_s
