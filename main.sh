@@ -26,28 +26,20 @@ sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
 #!/bin/bash
 
-awk '
-  NR==FNR {list[$0]=1; next}                 # 读list.txt，保存整行
-  FNR==NR+FNR {                             # 读black.txt，保存域名
-    black_domains[$0]
-    next
-  }
-  # 定义函数判断行是否包含黑名单域名（包括子域名）
-  function contains_black_domain(line) {
-    for (d in black_domains) {
-      # 构造正则，匹配域名边界：点或开头前缀，后面边界为行尾、斜杠、冒号或空白
-      # 注意转义点
-      pattern = "(^|\\.)" d "($|/|:|[[:space:]])"
-      if (line ~ pattern) return 1
-    }
-    return 0
-  }
-  {
-    if ($0 in list) next           # 如果整行在list.txt，跳过
-    if (contains_black_domain($0)) next  # 包含黑名单域名，跳过
-    print                         # 否则打印
-  }
-' wlist.txt black.txt i-raw.txt
+grep -vFxf list.txt i-raw.txt > temp1.txt
+
+# 构建域名匹配正则
+pattern=$(awk '{gsub(/\./, "\\."); print "(^|\\.)" $0 "$"}' black.txt | paste -sd'|' -)
+
+# 删除匹配 black.txt 中域名或子域名的行
+awk -v pat="$pattern" '
+{
+    domain = $0
+    n = split(domain, arr, "/")     # 只取主机名部分（如果是 URL）
+    host = arr[1]
+    if (host ~ pat) next
+    print
+}' temp1.txt > i-final.txt
 
 
 python rule.py i-final.txt
