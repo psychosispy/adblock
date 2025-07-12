@@ -24,7 +24,15 @@ cat i-*.txt > i-merged.txt
 cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^[\[]' | grep -v '^[【]' > i-tmp.txt
 sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
-grep -vFf wlist.txt i-raw.txt | grep -vf black.txt > i-final.txt
+grep -vFf wlist.txt i-raw.txt > i-raw.txt
+awk '
+NR==FNR { black[$0]=1; next }
+{
+    for (b in black)
+        if ($0 ~ "(^|[^a-zA-Z0-9-])" b "([^a-zA-Z0-9.-]|$)") next
+    print
+}
+' black.txt i-raw.txt > i-final.txt
 
 python rule.py i-final.txt
 
