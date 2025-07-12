@@ -28,29 +28,21 @@ sort i-tmp.txt | uniq > i-raw.txt
 
 grep -vFf wlist.txt i-raw.txt > i-temp.txt
 
-awk '
-{
-    gsub(/\./, "\\\\.");  # 转义点
-    print "(^|[^a-zA-Z0-9_-])" $0 "($|[^a-zA-Z0-9.-])"
-}' black.txt > black.regex
+#!/bin/sh
 
-# 过滤 i-raw.txt，逐行匹配是否包含任一黑名单正则，匹配则跳过
-awk '
-BEGIN {
-    while ((getline r < "black.regex") > 0) {
-        regex[n++] = r
-    }
-}
+# 1. 转义并拼接黑名单域名，生成一个大正则串
+regex=$(awk '
 {
-    keep = 1
-    for (i = 0; i < n; i++) {
-        if ($0 ~ regex[i]) {
-            keep = 0
-            break
-        }
-    }
-    if (keep) print
-}' i-temp.txt > i-final.txt
+    gsub(/\./, "\\\\.");
+    printf("(^|[^a-zA-Z0-9_-])%s($|[^a-zA-Z0-9_-])|", $0)
+}' black.txt)
+
+# 去掉末尾多余的 '|'
+regex=${regex%|}
+
+# 2. 使用grep -E匹配过滤，保留不匹配的行
+grep -Ev "$regex" i-temp.txt > i-final.txt
+
 
 python rule.py i-final.txt
 
