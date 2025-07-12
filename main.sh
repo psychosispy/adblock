@@ -13,13 +13,18 @@ curl -o i-CN.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalF
 curl -o i-Intl.txt https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/Intl.txt
 curl -o i-ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 curl -o i-addlist.txt https://raw.githubusercontent.com/psychosispy/adblock/refs/heads/main/i-addlist.txt
+curl -o i-AWAvenue-Ads-Rule.txt https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+curl -o i-xinggsf-rule.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
+curl -o i-xinggsf-mv.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
 curl -o wlist.txt https://raw.githubusercontent.com/psychosispy/adblock/refs/heads/main/main/wlist.txt
+curl -o black.txt https://raw.githubusercontent.com/217heidai/adblockfilters/refs/heads/main/rules/black.txt
 
 # 合并规则并去除注释、重复项
 cat i-*.txt > i-merged.txt
 cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^[\[]' | grep -v '^[【]' > i-tmp.txt
 sort i-tmp.txt | uniq > i-raw.txt
-grep -vFf wlist.txt i-raw.txt > i-final.txt
+# 使用两个白名单文件过滤
+grep -vFf wlist.txt i-raw.txt | grep -vFf black.txt > i-final.txt
 
 python rule.py i-final.txt
 
@@ -38,7 +43,7 @@ num=$(wc -l < i-final.txt)
 } > ads.txt
 
 # 清理临时文件
-rm i-*.txt i-merged.txt i-tmp.txt i-raw.txt i-final.txt wlist.txt
+#rm i-*.txt i-merged.txt i-tmp.txt i-raw.txt i-final.txt wlist.txt black.txt
 
 exit 0
 
