@@ -24,22 +24,21 @@ cat i-*.txt > i-merged.txt
 cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^[\[]' | grep -v '^[【]' > i-tmp.txt
 sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
-#!/bin/bash
 
-grep -vFxf list.txt i-raw.txt > temp1.txt
 
-# 构建域名匹配正则
-pattern=$(awk '{gsub(/\./, "\\."); print "(^|\\.)" $0 "$"}' black.txt | paste -sd'|' -)
+grep -vFxf wlist.txt i-raw.txt > temp1.txt
 
-# 删除匹配 black.txt 中域名或子域名的行
+# 构建正则：匹配域名或其子域名（注意要避免误匹配）
+pattern=$(awk '{
+    gsub(/\./, "\\.");
+    print "(^|[^a-zA-Z0-9-])([a-zA-Z0-9-]+\\.)*" $0 "([^a-zA-Z0-9-]|$)"
+}' black.txt | paste -sd'|' -)
+
+# 匹配整行是否含有这些域名或子域名，符合即删
 awk -v pat="$pattern" '
-{
-    domain = $0
-    n = split(domain, arr, "/")     # 只取主机名部分（如果是 URL）
-    host = arr[1]
-    if (host ~ pat) next
-    print
-}' temp1.txt > i-final.txt
+$0 ~ pat { next } # 匹配到就跳过
+{ print }         # 否则打印
+' temp1.txt > i-final.txt
 
 
 python rule.py i-final.txt
