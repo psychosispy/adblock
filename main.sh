@@ -24,15 +24,31 @@ cat i-*.txt > i-merged.txt
 cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^[\[]' | grep -v '^[【]' > i-tmp.txt
 sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
-grep -vFf wlist.txt i-raw.txt > i-raw.txt
+#!/bin/bash
+
 awk '
-NR==FNR { black[$0]=1; next }
-{
-    for (b in black)
-        if ($0 ~ "(^|[^a-zA-Z0-9-])" b "([^a-zA-Z0-9.-]|$)") next
-    print
-}
-' black.txt i-raw.txt > i-final.txt
+  NR==FNR {list[$0]=1; next}                 # 读list.txt，保存整行
+  FNR==NR+FNR {                             # 读black.txt，保存域名
+    black_domains[$0]
+    next
+  }
+  # 定义函数判断行是否包含黑名单域名（包括子域名）
+  function contains_black_domain(line) {
+    for (d in black_domains) {
+      # 构造正则，匹配域名边界：点或开头前缀，后面边界为行尾、斜杠、冒号或空白
+      # 注意转义点
+      pattern = "(^|\\.)" d "($|/|:|[[:space:]])"
+      if (line ~ pattern) return 1
+    }
+    return 0
+  }
+  {
+    if ($0 in list) next           # 如果整行在list.txt，跳过
+    if (contains_black_domain($0)) next  # 包含黑名单域名，跳过
+    print                         # 否则打印
+  }
+' wlist.txt black.txt i-raw.txt
+
 
 python rule.py i-final.txt
 
