@@ -23,9 +23,34 @@ curl -o black.txt https://raw.githubusercontent.com/217heidai/adblockfilters/ref
 cat i-*.txt > i-merged.txt
 cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^[\[]' | grep -v '^[【]' > i-tmp.txt
 sort i-tmp.txt | uniq > i-raw.txt
+
 # 使用两个白名单文件过滤
 
-grep -vFf wlist.txt i-raw.txt > i-final.txt
+grep -vFf wlist.txt i-raw.txt > i-temp.txt
+
+awk '
+{
+    gsub(/\./, "\\\\.");  # 转义点
+    print "(^|[^a-zA-Z0-9_-])" $0 "($|[^a-zA-Z0-9.-])"
+}' black.txt > black.regex
+
+# 过滤 i-raw.txt，逐行匹配是否包含任一黑名单正则，匹配则跳过
+awk '
+BEGIN {
+    while ((getline r < "black.regex") > 0) {
+        regex[n++] = r
+    }
+}
+{
+    keep = 1
+    for (i = 0; i < n; i++) {
+        if ($0 ~ regex[i]) {
+            keep = 0
+            break
+        }
+    }
+    if (keep) print
+}' i-temp.txt > i-final.txt
 
 python rule.py i-final.txt
 
