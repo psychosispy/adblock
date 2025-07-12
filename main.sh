@@ -1,8 +1,6 @@
 #!/bin/sh
 
 # 下载规则
-#curl -o i-AdGuard_cookie.txt https://filters.adtidy.org/extension/ublock/filters/18_optimized.txt
-#curl -o i-AdGuard_Popups.txt https://filters.adtidy.org/extension/ublock/filters/19_optimized.txt
 curl -o i-EasyList.txt https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt
 curl -o i-EasyList_Chinese.txt https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt
 curl -o i-AdGuard_AppBanners.txt https://filters.adtidy.org/extension/ublock/filters/20_optimized.txt
@@ -26,22 +24,8 @@ sort i-tmp.txt | uniq > i-raw.txt
 
 # 使用两个白名单文件过滤
 
-grep -vFf wlist.txt i-raw.txt > i-temp.txt
-
-#!/bin/sh
-
-# 1. 转义并拼接黑名单域名，生成一个大正则串
-regex=$(awk '
-{
-    gsub(/\./, "\\\\.");
-    printf("(^|[^a-zA-Z0-9_-])%s($|[^a-zA-Z0-9_-])|", $0)
-}' black.txt)
-
-# 去掉末尾多余的 '|'
-regex=${regex%|}
-
-# 2. 使用grep -E匹配过滤，保留不匹配的行
-grep -Ev "$regex" i-temp.txt > i-final.txt
+grep -vFf wlist.txt i-raw.txt > temp.txt
+grep -vf black.txt temp.txt > i-final.txt
 
 
 python rule.py i-final.txt
