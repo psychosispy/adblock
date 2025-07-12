@@ -26,19 +26,33 @@ sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
 
 
-grep -vFxf wlist.txt i-raw.txt > temp1.txt
+awk '
+# 第一遍：读取 wlist.txt，把每一行存入数组 w
+FILENAME == "wlist.txt" {
+    w[$0]; 
+    next
+}
+# 第二遍：读取 black.txt，把每一行存入数组 b
+FILENAME == "black.txt" {
+    b[$0];
+    next
+}
+# 第三遍：处理 i-raw.txt
+FILENAME == "i-raw.txt" {
+    # 如果该行在 wlist.txt 中有完全相同的条目，则跳过
+    if ($0 in w) 
+        next
 
-# 构建正则：匹配域名或其子域名（注意要避免误匹配）
-pattern=$(awk '{
-    gsub(/\./, "\\.");
-    print "(^|[^a-zA-Z0-9-])([a-zA-Z0-9-]+\\.)*" $0 "([^a-zA-Z0-9-]|$)"
-}' black.txt | paste -sd'|' -)
+    # 如果该行包含 black.txt 中的任一域名（子串匹配），则跳过
+    for (d in b)
+        if (index($0, d)) 
+            next
 
-# 匹配整行是否含有这些域名或子域名，符合即删
-awk -v pat="$pattern" '
-$0 ~ pat { next } # 匹配到就跳过
-{ print }         # 否则打印
-' temp1.txt > i-final.txt
+    # 否则，保留该行
+    print
+}
+' wlist.txt black.txt i-raw.txt > i-final.txt
+
 
 
 python rule.py i-final.txt
@@ -57,8 +71,7 @@ num=$(wc -l < i-final.txt)
   cat i-final.txt
 } > ads.txt
 
-# 清理临时文件
-#rm i-*.txt i-merged.txt i-tmp.txt i-raw.txt i-final.txt wlist.txt black.txt
+
 
 exit 0
 
