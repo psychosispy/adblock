@@ -25,35 +25,7 @@ cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# '
 sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
 
-
-awk '
-# 第一遍：读取 wlist.txt，把每一行存入数组 w
-FILENAME == "wlist.txt" {
-    w[$0]; 
-    next
-}
-# 第二遍：读取 black.txt，把每一行存入数组 b
-FILENAME == "black.txt" {
-    b[$0];
-    next
-}
-# 第三遍：处理 i-raw.txt
-FILENAME == "i-raw.txt" {
-    # 如果该行在 wlist.txt 中有完全相同的条目，则跳过
-    if ($0 in w) 
-        next
-
-    # 如果该行包含 black.txt 中的任一域名（子串匹配），则跳过
-    for (d in b)
-        if (index($0, d)) 
-            next
-
-    # 否则，保留该行
-    print
-}
-' wlist.txt black.txt i-raw.txt > i-final.txt
-
-
+grep -vFf wlist.txt i-raw.txt | grep -vf black.txt > i-final.txt
 
 python rule.py i-final.txt
 
