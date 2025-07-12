@@ -24,7 +24,7 @@ cat i-*.txt > i-merged.txt
 cat i-merged.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^[\[]' | grep -v '^[【]' > i-tmp.txt
 sort i-tmp.txt | uniq > i-raw.txt
 # 使用两个白名单文件过滤
-grep -vFf wlist.txt i-raw.txt | grep -vFf black.txt > i-final.txt
+grep -vFf wlist.txt i-raw.txt | grep -vf black.txt > i-final.txt
 
 python rule.py i-final.txt
 
