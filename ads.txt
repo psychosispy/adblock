@@ -2,5 +2,5 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自AdGuard，以及补充的一些规则
 ! Homepage: https://github.com/psychosispy/adblock
-! Version: 2025-07-12 02:01:51
+! Version: 2025-07-12 02:11:51
 ! Total count: 0
