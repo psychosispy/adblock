@@ -2,8 +2,8 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自AdGuard，以及补充的一些规则
 ! Homepage: https://github.com/psychosispy/adblock
-! Version: 2025-07-13 08:28:16
-! Total count: 101613
+! Version: 2025-07-13 20:24:17
+! Total count: 101826
 
 ###AC_ad
 ###AD_160
@@ -14251,7 +14251,6 @@
 ##.wrapper_ad
 ##.wrapper_advertisement
 ##.wrapperad
-##.wt-cli-cookie-bar-container
 ##.wumii-widget-ad
 ##.ww_ads_banner_wrapper
 ##.wwads
@@ -25647,6 +25646,9 @@ cukurovaexpres.com#$#.modal-backdrop { display: none!important; }
 cukurovaexpres.com#$#body { overflow: visible!important; }
 cultbeauty.co.uk,dermstore.com##li.sponsoredProductsList
 cultofmac.com##.header-ad-region
+cults3d.com###zone-home-selected
+cults3d.com##.cultszone
+cults3d.com##.cultszone__placeholder
 cults3d.com##.robots-nocontent
 cults3d.com##a.tbox-thumb[href^="https://jlc3dp.com/"]
 cults3d.com##a.tbox-thumb[href^="https://shrsl.com/"]
@@ -39936,7 +39938,6 @@ spanishdict.com##.whitelist
 spankbang.com###shorts-frame
 spankbang.com##.live-rotate
 spankbang.com##.livecam-rotate
-spankbang.com##.ptgncdn_holder
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 spankbang.com##a[href^="https://www.iyalc.com/"]
 spankbang.party,m.spankbang.com##.ads_placement
@@ -48471,6 +48472,7 @@ zznews.cn#@#.ad-wrapper
 ||abaolokyjmlvj.top^
 ||abarbollidate.com^
 ||abashfireworks.com^
+||abatersurat.digital^
 ||abattuehagbuts.com^
 ||abb030d6a7.com^
 ||abberantdisheartenbandage.com^
@@ -48693,6 +48695,7 @@ zznews.cn#@#.ad-wrapper
 ||accessibletighterchorus.com^
 ||accessirreparableenvironment.com^
 ||accidentallyrussian.com^
+||acclaimed-act.pro^
 ||acclaimfetidinhabitants.com^
 ||acclalmeddate.net^
 ||accmgr.com^
@@ -48808,6 +48811,7 @@ zznews.cn#@#.ad-wrapper
 ||acquiredeceasedundress.com^
 ||acquirethem.com^
 ||acqvaktt.com^
+||acreageupwhirl.com^
 ||acreinterstatethe.com^
 ||acrelicenseblown.com^
 ||acridangle.com^$third-party
@@ -49124,7 +49128,7 @@ zznews.cn#@#.ad-wrapper
 ||adblock-guru.com^$popup
 ||adblock-one-protection.com^$popup
 ||adblock-pro.org^
-||adblock-tester.com/banners/
+||adblock-tester.com/banners/$~third-party
 ||adblock-zen-download.com^$popup
 ||adblock-zen.com^
 ||adblock-zen.com^$popup
@@ -50108,6 +50112,7 @@ zznews.cn#@#.ad-wrapper
 ||adss.video.qq.com^
 ||adstargeting.com^$third-party
 ||adstargets.com^$third-party
+||adstat.izuiyou.com^
 ||adstats.
 ||adstats.tencentmusic.com^
 ||adstean.com^
@@ -50484,6 +50489,7 @@ zznews.cn#@#.ad-wrapper
 ||aefplnimtjkdq.site^
 ||aegis.qq.com^
 ||aeglereeshie.shop^
+||aegmbupscesey.space^
 ||aegzoils.com^
 ||aeinkailrupe.com^
 ||aeiwzejwyzqjy.rocks^
@@ -50897,6 +50903,7 @@ zznews.cn#@#.ad-wrapper
 ||aifvbpegmm.com^
 ||aigaithojo.com^$popup
 ||aigamtelturt.com^
+||aigeersoagay.net^
 ||aigeno.com^$popup
 ||aigfednd.icu^
 ||aigneloa.com^
@@ -51155,6 +51162,7 @@ zznews.cn#@#.ad-wrapper
 ||alchemymatchesconnection.com^
 ||alchemysocial.com^
 ||alcidkits.com^
+||alcoveringer.rest^
 ||alcroconawa.com^
 ||aldeacogons.shop^
 ||aldenwoolie.shop^
@@ -51454,6 +51462,7 @@ zznews.cn#@#.ad-wrapper
 ||alxbgo.com^$popup
 ||alxsite.com^
 ||alxxmbhdkxmbh.space^
+||alyhenjd.com^
 ||alypw.com/zb_users/plugin/ZF_tanchuang/
 ||alysson.de^
 ||alzaoknynwbn.top^
@@ -51849,6 +51858,7 @@ zznews.cn#@#.ad-wrapper
 ||antcixn.com^$document
 ||antcixn.com^$popup
 ||antcxk.com^
+||antdomsouush.click^
 ||anteaterdriftrecast.com^
 ||antecedentbees.com^
 ||antecedentbuddyprofitable.com^
@@ -51960,6 +51970,7 @@ zznews.cn#@#.ad-wrapper
 ||aomgyawomjmy.top^
 ||aomsitf.com^
 ||aomxqfcj.global^
+||aoonnwoyzylyq.top^
 ||aoovqo8t.stats.lncld.net^
 ||aopapp.com^
 ||aoqbhvxdxnm.com^
@@ -52038,6 +52049,7 @@ zznews.cn#@#.ad-wrapper
 ||api.afdback.ppsimg.com^
 ||api.ambelbet.com/assets/js/in.ads.js$script,redirect=noop.js
 ||api.ambelbet.com/assets/js/page.ads.js$script,redirect=noop.js
+||api.anythinktech.com^
 ||api.applovefrom.com^
 ||api.appnxt.net^
 ||api.appodeal.com/stats
@@ -52438,6 +52450,7 @@ zznews.cn#@#.ad-wrapper
 ||archbishoppectoral.com^
 ||archeanscrewed.shop^
 ||archedmagnifylegislation.com^
+||archestinvars.world^
 ||archiewinningsneaking.com^
 ||architectmalicemossy.com^
 ||architecturecultivated.com^
@@ -52694,6 +52707,7 @@ zznews.cn#@#.ad-wrapper
 ||asnoibator.com^
 ||aso1.net^
 ||aso1.net^$popup
+||asocialmarten.shop^
 ||asogkhgmgh.com^
 ||asokapygmoid.com^
 ||asokerbiums.shop^
@@ -52819,6 +52833,7 @@ zznews.cn#@#.ad-wrapper
 ||asunderfacilitydealt.com^
 ||asuracomic.net/api/ads/
 ||at*.doubanio.com^
+||atabeginstill.click^
 ||atabekdoubly.top^
 ||atableofcup.com^
 ||ataccwpdiqqnfl.com^
@@ -52841,6 +52856,7 @@ zznews.cn#@#.ad-wrapper
 ||ate60vs7zcjhsjo5qgv8.com^
 ||ateamplayera.com^
 ||ateaudiblydriving.com^
+||ateetersnots.cyou^
 ||atefpurga.top^
 ||atentherel.org^$popup
 ||aterhouseoyope.com^
@@ -53068,6 +53084,7 @@ zznews.cn#@#.ad-wrapper
 ||auroraveil.bid^$document
 ||aurousroseola.com^
 ||aurtotoomp.net^
+||aurumneutron.life^
 ||ausculttaraf.top^
 ||ausfyk.xyz^
 ||aushaq.top^
@@ -53782,6 +53799,7 @@ zznews.cn#@#.ad-wrapper
 ||banclip.com^
 ||bancosharang.top^
 ||bancosviage.top^
+||bancusshai.shop^
 ||bandanamarhala.top^
 ||bandborder.com^$third-party
 ||bandcamp.com/stat_record
@@ -53914,6 +53932,7 @@ zznews.cn#@#.ad-wrapper
 ||barscreative1.com^
 ||barsshrug.com^
 ||bartererfaxtingling.com^
+||barterkilning.life^
 ||bartonpriority.com^
 ||barwayslantum.top^
 ||barytemarkup.com^
@@ -54298,6 +54317,7 @@ zznews.cn#@#.ad-wrapper
 ||begoihuh.com^
 ||begolbatan.com^
 ||begonaoidausek.com^
+||begoniamarie.qpon^
 ||begracetindery.com^
 ||begun.ru^
 ||begun.ru^$third-party
@@ -54634,6 +54654,7 @@ zznews.cn#@#.ad-wrapper
 ||bewailindigestionunhappy.com^
 ||bewailknotcorruption.com^
 ||bewailsdecimus.top^
+||bewailspikers.world^
 ||bewarevampiresister.com^
 ||bewathis.com^
 ||bewathis.com^$popup
@@ -55059,6 +55080,7 @@ zznews.cn#@#.ad-wrapper
 ||bkgljnppwxjat.icu^
 ||bkill.com/css/js/xinbkill.js
 ||bkiterv.top^
+||bkjcspqtrlafh.online^
 ||bkjhqkohal.com^
 ||bklhnlv.com^
 ||bkojzevpe.com^
@@ -55176,6 +55198,7 @@ zznews.cn#@#.ad-wrapper
 ||bllsteringdates.com^
 ||blmibao.com^
 ||blmmlpjgcizzk.com^
+||blnrwscxnogfx.store^
 ||bloatingexpectantretinal.com^
 ||blobberpyosis.shop^
 ||blobjkwzb.com^
@@ -55390,6 +55413,7 @@ zznews.cn#@#.ad-wrapper
 ||boffoadsfeeds.com^
 ||bofhlzu.com^
 ||bogads.com^$third-party
+||boggyrapter.qpon^
 ||bogrodius.com^
 ||bogus-disk.com^
 ||bohawnahum.top^
@@ -55672,6 +55696,7 @@ zznews.cn#@#.ad-wrapper
 ||bqgdd.net/js/wap.js
 ||bqgeu.com/js/h$script
 ||bqgrsgchpqt.com^
+||bqqyomzoqvlkq.top^
 ||bqrdoilvhadpq.vip^
 ||bqrjmulwnxynr.website^
 ||bqsnmpwxwd.buzz^
@@ -55723,6 +55748,7 @@ zznews.cn#@#.ad-wrapper
 ||brandsfive.com^$third-party
 ||brandybison.com^$third-party
 ||brani.site^
+||brankyblatant.cyou^
 ||branleranger.com^
 ||brassstacker.com^
 ||brasthingut.com^
@@ -55898,6 +55924,7 @@ zznews.cn#@#.ad-wrapper
 ||browsobsolete.com^
 ||browtorrent.top^
 ||brqfqlsssthfg.com^
+||brqswpbsrwbpty.com^
 ||brsltxdigmai.com^
 ||brtlisv.top^
 ||brtsumthree.com^
@@ -56534,6 +56561,7 @@ zznews.cn#@#.ad-wrapper
 ||cakvwonirrw.com^
 ||calamityfortuneaudio.com^
 ||calamitymyselfprong.com^
+||calamusyid.qpon^
 ||calcatesituate.top^
 ||calcatesituate.top^$document
 ||calcatesituate.top^$popup
@@ -56596,6 +56624,7 @@ zznews.cn#@#.ad-wrapper
 ||camhub.cc/static/js/bgscript.js
 ||camiocw.com^
 ||camisreed.com^
+||camiwhothoot.net^
 ||camliveshow.xyz^
 ||camliveshow.xyz^$document
 ||camliveshow.xyz^$popup
@@ -56807,6 +56836,7 @@ zznews.cn#@#.ad-wrapper
 ||casiyouaffiliates.com^$popup
 ||casketdropperregalia.com^
 ||casketembody.com^
+||cassabarefront.qpon^
 ||cassatabayard.com^
 ||cassheencash.top^
 ||cassinamawger.top^
@@ -56880,6 +56910,7 @@ zznews.cn#@#.ad-wrapper
 ||caydoeuzvh.com^
 ||cayelychobenl.com^
 ||cayennemm.shop^
+||cazauskok.qpon^
 ||cb-content.com^$third-party
 ||cb.baidu.com^
 ||cb.lomark.cn^
@@ -57367,6 +57398,7 @@ zznews.cn#@#.ad-wrapper
 ||chalkplayground.co^
 ||chalkplayground.co^$popup
 ||challengetoward.com^
+||chalonsharking.world^
 ||chambermaidthree.xyz^
 ||chambermaidthree.xyz^$document
 ||chambersinterdependententirely.com^
@@ -57832,6 +57864,7 @@ zznews.cn#@#.ad-wrapper
 ||cirrateremord.com^
 ||cis.sohu.com^
 ||ciscoesfirring.guru^
+||cissoanoughanso.net^
 ||cistorigestae.shop^
 ||cistorioxyopy.world^
 ||cistronbrasen.shop^
@@ -58417,6 +58450,7 @@ zznews.cn#@#.ad-wrapper
 ||cnx-software.com/wp-content/uploads/*/gateworks-rugged-industrial-iot.webp
 ||cnx-software.com/wp-content/uploads/*/rikomagic-android-digital-signage-player-2023.webp
 ||cnxad.com^
+||cnxevxyawlloge.com^
 ||cnyojprieezzh.store^
 ||cnzz.
 ||cnzz.cdbsoi.com^
@@ -58578,6 +58612,7 @@ zznews.cn#@#.ad-wrapper
 ||colloquialassassinslavery.com^
 ||collowhypoxis.com^
 ||collysorest.shop^
+||colognechais.cyou^
 ||colognenobilityfrost.com^
 ||colonelsurvival.com^
 ||colonialismmarch.com^
@@ -59253,6 +59288,7 @@ zznews.cn#@#.ad-wrapper
 ||cowpeawahoos.shop^
 ||cowtpvi.com^
 ||cowweedthane.shop^
+||coxalgylydia.shop^
 ||coxiesthubble.com^
 ||coxwaintholed.com^
 ||coyuremuriate.top^
@@ -59414,6 +59450,7 @@ zznews.cn#@#.ad-wrapper
 ||craniumunplait.shop^
 ||crankyderangeabound.com^
 ||crash2.zhihu.com/api/194^
+||crash2.zhihu.com^
 ||crashchance.com^$third-party
 ||crashesnittier.shop^
 ||crasheye.cn^
@@ -59607,6 +59644,7 @@ zznews.cn#@#.ad-wrapper
 ||crokerhyke.com^
 ||crolerl.com^
 ||croni.site^
+||cronieunpen.cyou^
 ||crookdestinationjanuary.com^
 ||crookedchange.com^
 ||crookedcreature.com^$third-party
@@ -60052,6 +60090,7 @@ zznews.cn#@#.ad-wrapper
 ||cycuratedhi.com^
 ||cyeqeewyr.com^
 ||cyg-byzlgtns.world^
+||cygnetsdecapod.cfd^
 ||cygnus.com^
 ||cyjqgpf.top^
 ||cyksmcjfyyxxu.rocks^
@@ -60064,6 +60103,7 @@ zznews.cn#@#.ad-wrapper
 ||cynem.xyz^
 ||cynipidskurry.top^
 ||cypfdxbynb.com^
+||cypreopenly.click^
 ||cypriotharier.top^
 ||cyretuf.top^
 ||cysd.7kww.net^
@@ -61056,6 +61096,7 @@ zznews.cn#@#.ad-wrapper
 ||d9r4lqt28t1fm.cloudfront.net^
 ||d9yk47of1efyy.cloudfront.net^
 ||da-ads.com^
+||da.anythinktech.com^
 ||da.daji.com^
 ||da.hunantv.com^
 ||da.mgtv.com/mediafiles/wiad_creative/$image
@@ -61386,7 +61427,6 @@ zznews.cn#@#.ad-wrapper
 ||datingtopgirls.com^
 ||datingtorrid.top^$popup
 ||datjwuqifa.com^
-||datk.anythinktech.com^
 ||datk.bridgeoos.com^
 ||datoporn.com^$popup
 ||datouniao.com^
@@ -61412,6 +61452,7 @@ zznews.cn#@#.ad-wrapper
 ||davycrile.com^
 ||dawac.com^
 ||dawanda.com/widget/
+||dawingfawnier.world^
 ||dawnfilthscribble.com^
 ||dawplm.com^
 ||dawtetweever.com^
@@ -61986,6 +62027,7 @@ zznews.cn#@#.ad-wrapper
 ||dexpredict.com^
 ||dexpredict.com^$popup
 ||dexterrobbins.cf^
+||dextralshapeup.cfd^
 ||deymalaise.com^
 ||deypersonalreco.com^
 ||dezna.online^
@@ -63052,6 +63094,7 @@ zznews.cn#@#.ad-wrapper
 ||downxia.com/dgjs/download.js
 ||downxia.com/dgjs/pic/
 ||dowseawald.top^
+||doxbgawth.xyz^
 ||doxkzcjstizycs.com^
 ||doyoudi.com^
 ||dozenshallow.com^
@@ -63236,6 +63279,7 @@ zznews.cn#@#.ad-wrapper
 ||drubbersestia.com^
 ||druggedforearm.com^
 ||drugstoredemuretake.com^
+||druidrypeptids.cyou^
 ||drulilqe8wg66.cloudfront.net^
 ||drumfailedthy.com^
 ||drumlyavowant.top^
@@ -63512,6 +63556,7 @@ zznews.cn#@#.ad-wrapper
 ||duuddots.com^
 ||duujwfceivrra.site^
 ||duumvirkeach.top^
+||duy1ol4n1csnp.cloudfront.net^
 ||duyewnf.icu^
 ||duyhlct.icu^
 ||duz64ud8y8urc.cloudfront.net^
@@ -64204,6 +64249,7 @@ zznews.cn#@#.ad-wrapper
 ||efullofeedshen.com^
 ||efwukoulnhdluki.org^
 ||efxh.cn^
+||efykoaeajpzvy.site^
 ||efyt6.com^
 ||egadvertising.com^$third-party
 ||egamingonline.com^$third-party
@@ -64534,6 +64580,7 @@ zznews.cn#@#.ad-wrapper
 ||encoachmealier.top^
 ||encodediagnosisrelish.com^
 ||encoderfn.top^
+||encolorpirot.help^
 ||encounterponder.com^
 ||encourageshock.com^$third-party
 ||encouragingpistolassemble.com^
@@ -64696,6 +64743,7 @@ zznews.cn#@#.ad-wrapper
 ||eofwlnyaxwfqt.global^
 ||eoiservwax.com^
 ||eojfxignjyzev.website^
+||eojkmctngivoxet.com^
 ||eol.cn/e_busi/
 ||eol.cn/images/*1000-
 ||eol.cn/js/eol/
@@ -64913,6 +64961,7 @@ zznews.cn#@#.ad-wrapper
 ||eskux.xyz^
 ||esmystemgthro.org^
 ||esoujeebou.com^
+||espartomixups.cfd^
 ||espbrohujtbch.online^
 ||espinelbereave.shop^
 ||espionagegardenerthicket.com^
@@ -65685,6 +65734,7 @@ zznews.cn#@#.ad-wrapper
 ||fatcoil.com^$third-party
 ||fathomcleft.com^
 ||fatiguenoodlecomb.com^
+||fatimatosses.click^
 ||fatsosjogs.com^
 ||fauceit.com/Roulette-(728x90).jpg
 ||faucetfoot.com^$third-party
@@ -66507,6 +66557,7 @@ zznews.cn#@#.ad-wrapper
 ||fnpftjzykrbbg.store^
 ||fnrmxmfphbdjy.online^
 ||fntvloqdmf.com^
+||fnvekbgjqtq.com^
 ||fnximdpycveod.com^
 ||fnyaynma.com^
 ||fnyfiexpectth.org^
@@ -66522,6 +66573,7 @@ zznews.cn#@#.ad-wrapper
 ||foawogredoony.com^
 ||foazauwhemi.net^
 ||fobshanghai.com/bbsad/
+||fobyjqwmlokjq.space^
 ||focas.jp^
 ||foccqbujbfcyj.love^
 ||focsleacor.top^
@@ -66660,6 +66712,7 @@ zznews.cn#@#.ad-wrapper
 ||forexprostools.com^$third-party
 ||forfarscarotin.top^
 ||forfeitsubscribe.com^
+||forfitmozart.rest^
 ||forflygonom.com^
 ||forflygonom.com^$popup
 ||forfrogadiertor.com^
@@ -67275,6 +67328,7 @@ zznews.cn#@#.ad-wrapper
 ||fycdnhwmaitdg.online^
 ||fydisk.com/images/showvip.gif
 ||fydyjx.com^
+||fyeusjfotqsu.com^
 ||fygel9rtc.com^
 ||fyglovilo.pro^
 ||fyglovilo.pro^$popup
@@ -67796,6 +67850,7 @@ zznews.cn#@#.ad-wrapper
 ||geniusdexchange.com^$popup
 ||geniusonclick.com^
 ||geniusoutset.com^
+||genoiseacarida.world^
 ||genrepuls.top^
 ||gensonal.com^
 ||gensonal.com^$document
@@ -67995,6 +68050,7 @@ zznews.cn#@#.ad-wrapper
 ||ggs.myzaker.com^
 ||ggsfq.com^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
+||ggutxedi.com^
 ||ggv.cmvideo.cn^
 ||ggw.gusuwang.com^
 ||ggw.watertu.com^
@@ -68284,6 +68340,7 @@ zznews.cn#@#.ad-wrapper
 ||gliybhqdie.xyz^
 ||glizauvo.net^
 ||glizauvo.net^$popup
+||gljefytipwf.com^
 ||glkbqoypclywz.space^
 ||glo-glo-oom.com^
 ||gloabsechukru.net^
@@ -68359,6 +68416,7 @@ zznews.cn#@#.ad-wrapper
 ||gloytrkb.com^$popup
 ||glqsxlvrhuxba.love^
 ||glsfreeads.com^$popup
+||glsikeayvohta.site^
 ||glssp.net^
 ||gludqoqmuwbc.com^
 ||gluedpixel.com^$third-party
@@ -68668,6 +68726,7 @@ zznews.cn#@#.ad-wrapper
 ||goopijoawiw.com^
 ||goosebomb.com^
 ||goosebomb.com^$popup
+||gooshoalaphaica.com^
 ||goosierappetit.com^
 ||goourl.me^
 ||gophykopta.com^
@@ -68818,6 +68877,7 @@ zznews.cn#@#.ad-wrapper
 ||grandfatherguitar.com^$third-party
 ||grandocasino.com^
 ||grandparentsfortunes.com^
+||grandstring.pro^
 ||grandwatchesnaive.com^
 ||granlite.com^$third-party
 ||grantedorphan.com^
@@ -68836,6 +68896,7 @@ zznews.cn#@#.ad-wrapper
 ||graptaupsi.net^
 ||grarnuns.com^
 ||grasshusk.com^
+||grassopodeeckoy.com^
 ||grateful-address.pro^
 ||gratefulexamination.com^
 ||gratificationdesperate.com^
@@ -69393,6 +69454,7 @@ zznews.cn#@#.ad-wrapper
 ||gzpinda.com^
 ||gzqihxnfhq.com^
 ||gzsanxiaomingshi.cn^
+||gzxndiiqkcpgt.space^
 ||gzxssgwuyksxo.store^
 ||gzzbb.net^
 ||gzzuwo.com^
@@ -69691,6 +69753,7 @@ zznews.cn#@#.ad-wrapper
 ||hawkabsurd.com^
 ||hawkergoury.top^
 ||hawkeyemunguba.shop^
+||hawkingtorvid.help^
 ||hawkyeye5ssnd.com^
 ||hawsuffer.com^
 ||hawthorng66.top^
@@ -69910,6 +69973,7 @@ zznews.cn#@#.ad-wrapper
 ||heimalesssinpad.com/overroll/
 ||heiressplane.com^
 ||heiressscore.com^
+||heirsalined.digital^
 ||heiviek.com^
 ||heixidor.com^
 ||hejqtbnmwze.com^
@@ -69948,6 +70012,7 @@ zznews.cn#@#.ad-wrapper
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||hencesharply.com^
+||hengestwych.cfd^
 ||hengfaienterprises.com/template/reader/wap/revvd.js
 ||henghost.com/data/forum-$script
 ||henghost.com^$third-party
@@ -70110,6 +70175,7 @@ zznews.cn#@#.ad-wrapper
 ||hghngh.com^
 ||hgk0mu8irw.com^
 ||hgkqdpjck.com^
+||hgmclmhx.xyz^
 ||hgmggiozinfbi.store^
 ||hgo06041uyi.com^
 ||hgo06050uyi.com^
@@ -70170,6 +70236,7 @@ zznews.cn#@#.ad-wrapper
 ||hide-my-ip.com/promo/
 ||hidecatastropheappend.com^
 ||hideip.me/src/img/rekl/
+||hideousstrategy.pro^
 ||hidgfbsitnc.fun^
 ||hidgttxnces.com^
 ||hidingenious.com^
@@ -70981,6 +71048,7 @@ zznews.cn#@#.ad-wrapper
 ||huhue.com^
 ||huiagun.com/template/common.js
 ||huibaihe.net/js/dddd.js
+||huichuan-mc.sm.cn^
 ||huichuan.sm.cn^
 ||huiun.com^
 ||huizu100.com/data/attachment/portal/
@@ -71000,6 +71068,7 @@ zznews.cn#@#.ad-wrapper
 ||huluads.info^$popup
 ||huluxia.com^$domain=m.imomoe.la
 ||humatecortin.com^
+||humble-dinner.pro^
 ||humble-gap.com^
 ||humblemotor.pro^
 ||humbleromecontroversial.com^
@@ -71044,6 +71113,7 @@ zznews.cn#@#.ad-wrapper
 ||huo07120hy.com^
 ||huo07121hy.com^
 ||huo07130hy.com^
+||huo07131hy.com^
 ||huo720.com/back/ad_
 ||huobaowang.com/meeting/js/hbchat.
 ||huodong.m.taobao.com/act^$third-party
@@ -71089,6 +71159,7 @@ zznews.cn#@#.ad-wrapper
 ||hussaiphoa.com^
 ||hussiespoets.top^
 ||hutchetiglesia.shop^
+||huthuvaijaiseem.com^
 ||hutlockshelter.com^
 ||hutoumseet.com^
 ||huwaczntu.com^
@@ -71181,6 +71252,7 @@ zznews.cn#@#.ad-wrapper
 ||hyjqgpu.top^
 ||hylplj.icu^
 ||hymeniacrouch.com^
+||hymnopaleye.digital^
 ||hynea.site^
 ||hyoidssalvor.cfd^
 ||hypelab.com^$third-party
@@ -71281,6 +71353,7 @@ zznews.cn#@#.ad-wrapper
 ||iad-*.braze.com^
 ||iad.appboy.com^
 ||iad.apple.com^
+||iad.g.163.com^
 ||iadctest.qwapi.com^
 ||iadmat.nosdn.127.net^
 ||iadmatvideo.nosdn.127.net^$domain=music.163.com
@@ -71291,6 +71364,7 @@ zznews.cn#@#.ad-wrapper
 ||iadsdk.apple.com^
 ||iadworkbench.apple.com^
 ||iagrus.com^
+||iagwirjtflb.com^
 ||iaiqk.top^
 ||iairuo.xyz^
 ||iaisvasxruxqv.life^
@@ -71449,6 +71523,7 @@ zznews.cn#@#.ad-wrapper
 ||idrfvtcl.com^
 ||idrive.com/include/images/idrive-120240.png
 ||idrylgibbled.top^
+||idsaqtkau.com^
 ||idsce.com^
 ||idsrscpzgpgzw.rocks^
 ||idting.com^
@@ -71665,6 +71740,7 @@ zznews.cn#@#.ad-wrapper
 ||iiwm70qvjmee.com^
 ||iiyurraeoh.com^
 ||ijbaawqolrhpd.site^
+||ijemtogharse.net^
 ||ijeujkdhnvb.top^
 ||ijgqiqnlhwjch.fun^
 ||ijhweandthepe.info^
@@ -71915,6 +71991,7 @@ zznews.cn#@#.ad-wrapper
 ||imiclick.org^
 ||imiclk.com^
 ||imidicsecular.com^
+||iminopardale.world^
 ||imirkin6.com^
 ||imitateupsettweak.com^
 ||imitrck.net^
@@ -71985,6 +72062,7 @@ zznews.cn#@#.ad-wrapper
 ||implix.com^
 ||implycollected.com^
 ||impofobulimic.top^
+||imponetimed.qpon^
 ||importanceborder.com^
 ||importanceexhibitedamiable.com^
 ||important-credit.com^
@@ -71995,6 +72073,7 @@ zznews.cn#@#.ad-wrapper
 ||importedincrease.com^$third-party
 ||importedinsect.com^$third-party
 ||importlocate.com^$third-party
+||imposalib.cfd^
 ||imposi.com^
 ||impossibilityaboriginalblessed.com^
 ||impossibleexpansion.com^$third-party
@@ -72172,6 +72251,7 @@ zznews.cn#@#.ad-wrapper
 ||infectedrepentearl.com^
 ||infectiousmedia.com^$third-party
 ||infeebasr.com^$popup
+||infeofflarkers.shop^
 ||inferiorkate.com^
 ||infestpunishment.com^
 ||infibeam.com/affiliate/
@@ -72368,6 +72448,7 @@ zznews.cn#@#.ad-wrapper
 ||insurads.com^$third-party
 ||insure1266.fun^
 ||insurecarrot.com^
+||insurgebullety.cyou^
 ||inswellbathes.com^
 ||intab.fun^$popup
 ||intailmanes.shop^
@@ -72550,6 +72631,7 @@ zznews.cn#@#.ad-wrapper
 ||ioqmvymbz.com^
 ||ioredi.com^
 ||iornjqfdcrjjy.store^
+||ios.bugly.qq.com^
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||ioublio.top^
@@ -72571,6 +72653,7 @@ zznews.cn#@#.ad-wrapper
 ||ipallhpscbdou.site^
 ||ipcejez.com^
 ||ipcjmwhyo.com^
+||ipdaxqyaqzjcn.store^
 ||ipecacdormin.top^
 ||ipelo.site^
 ||ipfgvwdwcqiwo.space^
@@ -72921,6 +73004,7 @@ zznews.cn#@#.ad-wrapper
 ||iwhoosty.com^
 ||iwhp.cn^
 ||iwilmio.top^
+||iwjbodkdwgaxq.website^
 ||iwnkljmnqbpnfa.com^
 ||iwonossesh.com^
 ||iwovfiidszrk.tech^
@@ -73119,6 +73203,7 @@ zznews.cn#@#.ad-wrapper
 ||jaumevie.com^
 ||jauntwasp.shop^
 ||jauntyit.com^
+||jauptoufivo.net^
 ||jauql.top^
 ||jausheewhocoary.net^
 ||jautauhoch.com^
@@ -73355,6 +73440,7 @@ zznews.cn#@#.ad-wrapper
 ||jgfuxnrloev.com^
 ||jggegj-rtbix.top^$popup
 ||jggleds.shop^
+||jggylqznkyjab.top^
 ||jgiyadntcqakjyp.com^
 ||jgjyxf.xyz^
 ||jgkbbvqvqvmz.top^
@@ -73585,6 +73671,7 @@ zznews.cn#@#.ad-wrapper
 ||jkzakzazlojbl.top^
 ||jkzakzazlojvz.top^
 ||jkzlzx.com^
+||jkzvlbwxnkzm.com^
 ||jl368.cn^
 ||jl63v3fp1.com^
 ||jlajwkabozbak.top^
@@ -73697,6 +73784,7 @@ zznews.cn#@#.ad-wrapper
 ||joomxer.fun^
 ||joopaish.com^
 ||joorekbzwrjoz.top^
+||joorekbzwrjqy.top^
 ||jootizud.net^
 ||jootuteeloobour.net^
 ||jopbvpsglwfm.com^
@@ -74072,6 +74160,7 @@ zznews.cn#@#.ad-wrapper
 ||jusha.com^
 ||juska.site^
 ||juslxp.com^
+||jussorygiddy.help^
 ||jussubku.com^
 ||just-news.pro^
 ||justad.mobi^
@@ -74586,6 +74675,7 @@ zznews.cn#@#.ad-wrapper
 ||kgfjrb711.com^
 ||kgfjrb711.com^$popup
 ||kgfrstw.com^
+||kgggbwqymnowj.top^
 ||kggrybngbdwedsg.com^
 ||kgimg.com/public/root//images/hardware.jpg
 ||kgiponbnqwo.com^
@@ -74892,6 +74982,7 @@ zznews.cn#@#.ad-wrapper
 ||knownnatural.pro^
 ||knownwarn.com^
 ||knpfx.life^
+||kntcvtwfnmynt.online^
 ||kntqxwhr.com^
 ||knuinws.icu^
 ||knul.cn^
@@ -74926,9 +75017,11 @@ zznews.cn#@#.ad-wrapper
 ||kodwaqepr.com^
 ||kogkljgjaonmq.top^
 ||kohiseewhatm.com^
+||kohuaca.cyou^
 ||koiaripolymny.com^
 ||koibvboxuvndaxc.xyz^
 ||koindut.com^
+||kojimajillion.click^
 ||kokcmnqvr.com^
 ||kokflrflwarlx.today^
 ||kokojia.com^$third-party
@@ -75067,6 +75160,7 @@ zznews.cn#@#.ad-wrapper
 ||krutvncd.top^
 ||krxyfefbtwc.com^
 ||kryeia.xyz^
+||kryflwrav.com^
 ||krzovyae.work^
 ||ks-p2p-v2.pull.yximgs.com^
 ||ks-p2p.pull.yximgs.com^
@@ -75713,6 +75807,7 @@ zznews.cn#@#.ad-wrapper
 ||ledwtz.icu^
 ||lee789.com^
 ||leechiza.net^
+||leefulsozines.qpon^
 ||leeleo.top^$third-party
 ||leemeecheetuso.net^
 ||leepigroazo.net^
@@ -75856,6 +75951,7 @@ zznews.cn#@#.ad-wrapper
 ||letvimg.com/lc*_iscms/202$image
 ||letvimg.com/lc06_gugwl/20$image
 ||letzonke.com^$popup
+||leucismbemata.help^
 ||leukemiaruns.com^
 ||levefulitchy.top^
 ||level.18huhu.com^
@@ -76262,6 +76358,7 @@ zznews.cn#@#.ad-wrapper
 ||livezombymil.com^
 ||livezombymil.com^$popup
 ||livid-management.pro^
+||lividgod.pro^
 ||livingsleet.com^$third-party
 ||livrestyromas.top^
 ||livvbkx-vejj.xyz^
@@ -76700,6 +76797,7 @@ zznews.cn#@#.ad-wrapper
 ||loungyserger.com^
 ||loupan99.com^
 ||lourdoueisienne.website^
+||louroroabee.com^
 ||lousefodgel.com^
 ||lousyfastened.com^
 ||loutochaib.com^
@@ -77049,6 +77147,7 @@ zznews.cn#@#.ad-wrapper
 ||lvsm.cn^
 ||lvualvjfekioz.space^
 ||lvvbqeaqvrmvy.top^
+||lvvbqeaqvrzlv.top^
 ||lvw7k4d3j.com^
 ||lvwojmlajvcub.site^
 ||lvxbeiiwsmsstjv.com^
@@ -77343,6 +77442,7 @@ zznews.cn#@#.ad-wrapper
 ||m1905.cn/collect.
 ||m1905.cn/js/afp/m
 ||m19ud.cn^
+||m1vvvv1k2.com^
 ||m2.ai^
 ||m2.lelemh.com^
 ||m2.yqxs.cc/js^
@@ -77586,6 +77686,7 @@ zznews.cn#@#.ad-wrapper
 ||manage.wuhancloud.cn^
 ||managesrimery.top^
 ||managetroubles.com^
+||manaljojbmw.com^
 ||manapecmfq.com^
 ||manbycus.com^$popup
 ||manconsider.com^
@@ -77630,6 +77731,7 @@ zznews.cn#@#.ad-wrapper
 ||manompas.com^
 ||manpowerspiritualunrented.com^
 ||manrec.cc^
+||manserrance.life^
 ||mansetilaks.top^
 ||mansfieldspurtvan.com^
 ||mansudee.net^
@@ -78328,6 +78430,7 @@ zznews.cn#@#.ad-wrapper
 ||mewiththeb.com^
 ||mewrutx.top^
 ||mewscornel.top^
+||meyjetckpqap.com^
 ||mf01.zybang.com^
 ||mfadsrvr.com^
 ||mfbvgcjkqpxup.xyz^
@@ -78571,6 +78674,7 @@ zznews.cn#@#.ad-wrapper
 ||mirfakpersei.top^$document
 ||mirfakpersei.top^$popup
 ||mirifelon.com^
+||mirishwarundi.cyou^
 ||mirsuwoaw.com^
 ||mirsuwoaw.com^$popup
 ||mirthbeat.com^
@@ -79426,6 +79530,7 @@ zznews.cn#@#.ad-wrapper
 ||multiview.com^$third-party
 ||multiwall-ads.shop^
 ||multstorage.com^
+||mummershaha.help^
 ||mummifiedpatienceunknowing.com^
 ||mumnxiex.top^
 ||mumuendymehn.com^
@@ -79485,6 +79590,7 @@ zznews.cn#@#.ad-wrapper
 ||mutedpoetry.com^
 ||muteknife.com^$third-party
 ||mutenessdollyheadlong.com^
+||mutesarsino.shop^
 ||muthwhcjuwela.store^
 ||mutsjeamenism.com^
 ||muuxrbdsheuhg.space^
@@ -79725,6 +79831,7 @@ zznews.cn#@#.ad-wrapper
 ||mywebclick.net^$third-party
 ||mywondertrip.com^
 ||mywondertrip.com^$popup
+||myxopodmoneric.life^
 ||myxstalk.lol^
 ||myyage.com^
 ||myyivaftgefsq.site^
@@ -79942,8 +80049,10 @@ zznews.cn#@#.ad-wrapper
 ||naupsithizeekee.com^
 ||nauseumlawmen.top^
 ||nauticalspecialist.pro^
+||nautzaires.cyou^
 ||nav.browser.miui.com^
 ||navaidaosmic.top^
+||navelkanauji.cfd^
 ||naverpa-phinf.pstatic.net^
 ||navigateconfuseanonymous.com^
 ||navigateiriswilliam.com^
@@ -80451,6 +80560,7 @@ zznews.cn#@#.ad-wrapper
 ||nicknameuntie.com^
 ||nicksstevmark.com^
 ||nicolmesityl.top^
+||nicolsphonol.rest^
 ||nidmcptni.com^
 ||nidredra.net^
 ||niecarsg.com^
@@ -80478,6 +80588,7 @@ zznews.cn#@#.ad-wrapper
 ||nigroopheert.com^
 ||nigroopheert.com^$document
 ||nigroopheert.com^$popup
+||nihaldhurrie.help^
 ||nihaovcd.com/js/neirong
 ||nijaqccry.com^
 ||nijaultuweftie.net^
@@ -80565,6 +80676,7 @@ zznews.cn#@#.ad-wrapper
 ||nknkwypfjrregtj.com^
 ||nkredir.com^
 ||nktydx.icu^
+||nkybzumaqr.com^
 ||nkyzsgitgjdam.space^
 ||nl-rcd.iqiyi.com^
 ||nl.rcd.iqiyi.com^
@@ -80879,6 +80991,7 @@ zznews.cn#@#.ad-wrapper
 ||nqmtzldnhcree.store^
 ||nqn7la7.de^
 ||nqowmugodougu.com^
+||nqqncdeniixdo.online^
 ||nqrkzcd7ixwr.com^
 ||nqrlkmicjyfzi.rocks^
 ||nqsizzyicehpm.one^
@@ -81081,6 +81194,7 @@ zznews.cn#@#.ad-wrapper
 ||nutritious-essay.pro^
 ||nutritious-month.com^
 ||nutritiousbean.com^$third-party
+||nuttiersqueeze.rest^
 ||nutty-abuse.pro^
 ||nuvaioqds.com^
 ||nuxwlc.cn^
@@ -81108,6 +81222,7 @@ zznews.cn#@#.ad-wrapper
 ||nvyhlkbvtoifv.site^
 ||nwabcuwugact.com^
 ||nwarktriynwek.store^
+||nwchhcafat.com^
 ||nwcsofuuicvxdx.com^
 ||nweligduicngw.site^
 ||nwemnd.com^
@@ -81303,6 +81418,7 @@ zznews.cn#@#.ad-wrapper
 ||obedientapologyinefficient.com^
 ||obedientengineer.pro^
 ||obedieval.my.id^
+||obeliacarchest.life^
 ||obetmwbxfdswe.store^
 ||obeus.com^
 ||obeyedortostr.cc^
@@ -81465,6 +81581,7 @@ zznews.cn#@#.ad-wrapper
 ||oecdupuvlbvjs.space^
 ||oeciyalb.top^
 ||oecusunsaid.top^
+||oefdqqmx.com^
 ||oehgk.com^
 ||oejijdbqnqyvcvy.com^
 ||oekmddefrcntj.com^
@@ -81687,6 +81804,7 @@ zznews.cn#@#.ad-wrapper
 ||oinkedbowls.com^
 ||ointmentapathetic.com^
 ||ointmentbarely.com^
+||oioliaumrxjik.store^
 ||oipgqcxwnjwxfqb.com^
 ||oisfwfiayxtbw.com^
 ||oiu09.cn^
@@ -81894,6 +82012,7 @@ zznews.cn#@#.ad-wrapper
 ||ominousgutter.com^
 ||omission119.fun^
 ||omissionmexicanengineering.com^
+||omizjgqkwr.com^
 ||omjqukadtolg.com^
 ||omjrzojitc.com^
 ||omklefkior.com^$popup
@@ -82122,6 +82241,7 @@ zznews.cn#@#.ad-wrapper
 ||oogala.com^$third-party
 ||oognaxoudroogru.net^
 ||oogneenu.net^
+||oogroorgiglie.com^
 ||oogwimwoydwf.com^
 ||oohedastroid.shop^
 ||oohougrauh.net^
@@ -82160,6 +82280,7 @@ zznews.cn#@#.ad-wrapper
 ||op01.biz^
 ||op02.biz^
 ||op3xdork.xyz^
+||opawqdpgacmw.xyz^
 ||opchikoritar.com^
 ||opckzyams.com^
 ||opclauncheran.com^
@@ -82583,6 +82704,7 @@ zznews.cn#@#.ad-wrapper
 ||oudseroa.com^
 ||oudsutch.com^
 ||oufeljwclbf.com^
+||ouftecocman.net^
 ||ouftukoo.net^
 ||ougeechimp.net^
 ||ougeechimp.net^$popup
@@ -82609,6 +82731,7 @@ zznews.cn#@#.ad-wrapper
 ||ouo.io/js/pop.
 ||ouo.press/js/pop.
 ||ouo.us/nyad/
+||ouoxrvigpweth.store^
 ||oupai.cc^
 ||oupaumul.net^
 ||ouphouch.com^
@@ -82651,7 +82774,9 @@ zznews.cn#@#.ad-wrapper
 ||outchinchour.com^
 ||outclaydola.com^
 ||outcrycaseate.com^
+||outdidmzungu.click^
 ||outelectrodean.com^
+||outerpascual.shop^
 ||outflewtouches.rest^
 ||outfoxnapalms.com^
 ||outgratingknack.com^
@@ -82678,6 +82803,7 @@ zznews.cn#@#.ad-wrapper
 ||outragederic.shop^
 ||outrageousjobless.com^
 ||outratela.com^
+||outridequants.digital^
 ||outrightsham.com^
 ||outrightstifflyvending.com^
 ||outrotomr.com^
@@ -83308,6 +83434,7 @@ zznews.cn#@#.ad-wrapper
 ||pastimeprayermajesty.com^
 ||pastjauntychinese.com^
 ||pastoralroad.com^$third-party
+||pastormedimn.qpon^
 ||pastoupt.com^
 ||pasttable.com^
 ||pastureacross.com^
@@ -83518,6 +83645,7 @@ zznews.cn#@#.ad-wrapper
 ||peejoopsajou.net^
 ||peelupsu.com^
 ||peelxotvq.com^
+||peemoagevaijug.net^
 ||peensumped.shop^
 ||peer39.com^$third-party
 ||peer39.net^
@@ -83909,6 +84037,7 @@ zznews.cn#@#.ad-wrapper
 ||pic1.dianshu119.com^
 ||pic50.pingguolv.com^
 ||pica-pica.wikawika.xyz/static/banner_game.gif
+||picaetoto.rest^
 ||picarasgalax.com^
 ||picarosfurry.top^
 ||picbitok.com^
@@ -83997,6 +84126,8 @@ zznews.cn#@#.ad-wrapper
 ||pingwest.com/api/news_ad
 ||pinionsmamry.top^
 ||pinjzp.icu^
+||pinkeytmemata.shop^
+||pinkifyjujuist.shop^
 ||pinklabel.com^
 ||pinkleo.pro^
 ||pinkmonkey.com/includes/right-ad-columns.html
@@ -84005,6 +84136,7 @@ zznews.cn#@#.ad-wrapper
 ||pinkvisualgames.com/?revid=
 ||pinlue.com/style/js/common.js
 ||pinnaemangily.top^
+||pinnaeplumbog.life^
 ||pinnulepagedom.com^
 ||pinoymovies.es/links/$popup
 ||pinpinnet.net^
@@ -84110,6 +84242,7 @@ zznews.cn#@#.ad-wrapper
 ||pjiijynaari.xyz^
 ||pjjpp.com^
 ||pjmknmuo.food^
+||pjmthqtzhvzyk.online^
 ||pjnkltaayvde.xyz^
 ||pjnqeaqhbbokuwn.com^
 ||pjnzvmekg.com^
@@ -84294,6 +84427,7 @@ zznews.cn#@#.ad-wrapper
 ||plmwsl.com^
 ||plocap.com^
 ||plocepgfcnyv.com^
+||plooksanka.qpon^
 ||plorexdry.com^
 ||plorexdry.com^$document
 ||plorexdry.com^$popup
@@ -84305,6 +84439,7 @@ zznews.cn#@#.ad-wrapper
 ||plowh.com^
 ||ployingcurship.com^
 ||plqbxvnjxq92.com^
+||plrixeqx.com^
 ||plrjs.org^
 ||plrst.com^
 ||plrthzxgifkgg.site^
@@ -84514,6 +84649,7 @@ zznews.cn#@#.ad-wrapper
 ||pon-prairie.com^
 ||pon-prairie.com^$popup
 ||ponderliquidate.com^
+||pondmaninjure.cyou^
 ||pondov.cfd^
 ||ponk.pro^
 ||ponk.pro^$popup
@@ -85286,6 +85422,7 @@ zznews.cn#@#.ad-wrapper
 ||protrckit.com^$popup
 ||protrudesublimetroubling.com^
 ||protustescuatize.com^
+||protylsencarpa.shop^
 ||proud-branch.pro^
 ||provenperch.com^
 ||provenpixel.com^
@@ -86143,6 +86280,7 @@ zznews.cn#@#.ad-wrapper
 ||qfy.innotechx.com^
 ||qgaxkkv.top^
 ||qgbgddskkmgto.online^
+||qgcrbzmeoqxz.com^
 ||qgdgcbtfuxgra.store^
 ||qgerr.com^
 ||qgevavwyafjf.com^
@@ -86557,6 +86695,7 @@ zznews.cn#@#.ad-wrapper
 ||quackupsilon.com^
 ||quadrinhoseroticos.net^$popup
 ||quagfa.com^
+||quagsfumaryl.cfd^
 ||quaichczarian.top^
 ||quaighscavings.top^
 ||quaintcan.com^$third-party
@@ -86747,6 +86886,7 @@ zznews.cn#@#.ad-wrapper
 ||qwxcs.com^
 ||qwyvmjvkmrqlz.top^
 ||qwyvmjvkmrvrv.top^
+||qwzbcukveymrc.online^
 ||qxdownload.com^
 ||qxdownload.com^$popup
 ||qxeidsj.com^
@@ -86930,6 +87070,7 @@ zznews.cn#@#.ad-wrapper
 ||ralhkgibukxcw.online^
 ||rallantynethebra.com^$popup
 ||ramasilenic.shop^
+||rambledserrate.help^
 ||rambo.xhamster.com^
 ||ramieuretal.com^
 ||rammishruinous.com^
@@ -86970,6 +87111,7 @@ zznews.cn#@#.ad-wrapper
 ||rapacitylikelihood.com^
 ||rapaidrily.com^
 ||rapepush.net^
+||raphewed.shop^
 ||raphidewakener.com^
 ||rapidfoxengine.com^
 ||rapidgator.net/images/pics/510_468%D1%8560_1.gif
@@ -87370,6 +87512,7 @@ zznews.cn#@#.ad-wrapper
 ||reelnk.com^
 ||reenakun.com^
 ||reepsotograg.net^
+||reeqqkeamaraw.top^
 ||reeqqkeamarmj.top^
 ||reeqqkeamawaq.top^
 ||reerupttuchis.shop^
@@ -87548,6 +87691,7 @@ zznews.cn#@#.ad-wrapper
 ||rendchewed.com^
 ||renderedwowbrainless.com^
 ||rendfy.com^
+||rendingblueing.life^
 ||renewdateromance.life^
 ||renohj.xyz^
 ||renote.*/assets/sp_inline_ad_
@@ -87713,8 +87857,10 @@ zznews.cn#@#.ad-wrapper
 ||resultedinncreas.com^
 ||resultlinks.com^
 ||resumesdibatis.shop^
+||resurgepega.help^
 ||resurgetressel.top^
 ||resurrectionincomplete.com^
+||reswarmdript.life^
 ||retagcoppet.top^
 ||retagro.com^
 ||retainedpotential.com^
@@ -88149,6 +88295,7 @@ zznews.cn#@#.ad-wrapper
 ||rms.meituan.com/diancan/api/queryAdBoard
 ||rmshqa.com^
 ||rmtagvivdrbwd.icu^
+||rmtpouusuokbh.space^
 ||rmtxdn.icu^
 ||rmuahxbcepu.com^
 ||rmuogjdip.com^
@@ -88421,6 +88568,7 @@ zznews.cn#@#.ad-wrapper
 ||rpazaa.xyz^
 ||rpbielpssuigs.space^
 ||rpbntwsarxb.com^
+||rpeqmzqgutuxv.online^
 ||rpeutxu.icu^
 ||rpfuvj.icu^
 ||rpfytkt.com^
@@ -88971,6 +89119,7 @@ zznews.cn#@#.ad-wrapper
 ||safsdvc.com^
 ||saftsordes.shop^
 ||sagcoreedge.com^
+||sagrahagweed.rest^
 ||sahagwjapl.com^
 ||sahhpunster.shop^
 ||sahofqal.com^
@@ -88988,6 +89137,7 @@ zznews.cn#@#.ad-wrapper
 ||saillevity.com^$popup
 ||sailorjav128.fun^
 ||sailthru.com^*/horizon.js
+||saimigojonounor.net^
 ||saimplemukente.org^
 ||saipsoan.net^
 ||sairvecitable.shop^
@@ -89005,6 +89155,7 @@ zznews.cn#@#.ad-wrapper
 ||saldidbritska.top^
 ||sales-frontier.com^$third-party
 ||salestingoner.org^
+||saletshacks.cyou^
 ||salfgkhsklgcvrg.com^
 ||salivanmobster.com^
 ||salivatreatment.com^
@@ -89091,6 +89242,7 @@ zznews.cn#@#.ad-wrapper
 ||sarcasticnotarycontrived.com^
 ||sarcasticproject.pro^
 ||sarcinedewlike.com^
+||sarindavesicae.rest^
 ||sarinfalun.com^
 ||sarrowgrivois.com^
 ||sartolutus.com^
@@ -89250,6 +89402,7 @@ zznews.cn#@#.ad-wrapper
 ||scavelbuntine.life^
 ||scdn.line-apps.com/stf/line-news/js/thirdparty/
 ||scdng.com^
+||scenascobia.qpon^
 ||scenbe.com^
 ||scenbe.com^$popup
 ||scendho.com^
@@ -89734,6 +89887,7 @@ zznews.cn#@#.ad-wrapper
 ||sepyohro.com^
 ||sequanisibilus.shop^
 ||sequelsriv.com^
+||sequinssmooths.life^
 ||ser.everydayporn.co^
 ||ser678uikl.xyz^
 ||ser678uikl.xyz^$popup
@@ -89962,6 +90116,7 @@ zznews.cn#@#.ad-wrapper
 ||sh5.icu^
 ||sh996.dftoutiao.com^
 ||shabbynovel.pro^
+||shabtiqueur.rest^
 ||shackapple.com^
 ||shadeapologies.com^
 ||shadowjav182.fun^
@@ -90081,6 +90236,7 @@ zznews.cn#@#.ad-wrapper
 ||sheensaulus.com^
 ||sheepcovings.top^
 ||sheerliteracyquestioning.com^
+||sheerrabbler.com^
 ||sheerspechs.shop^
 ||sheeshumte.net^
 ||sheesimo.net^
@@ -90690,6 +90846,7 @@ zznews.cn#@#.ad-wrapper
 ||slcuse.com^$popup
 ||sleazyneasy.com/contents/images-banners/
 ||sleazyneasy.com/jsb/
+||sleepy-quality.pro^
 ||sleepydrunk.pro^
 ||sleepyrowan.com^
 ||slejcsgbrsaqpmt.com^
@@ -90730,6 +90887,7 @@ zznews.cn#@#.ad-wrapper
 ||slinkzone.com^
 ||slippersappointed.com^
 ||slippersphoto.com^
+||slishsnocher.qpon^
 ||slit.cn/slimages/
 ||slit.lewd.rip^
 ||slivmux.com^
@@ -90754,6 +90912,7 @@ zznews.cn#@#.ad-wrapper
 ||slpmdjwuan.com^
 ||sltraffic.com^
 ||sltzvmrpqxgxi.website^
+||slubsmisdoes.cfd^
 ||sluggedabyssal.shop^
 ||sluggedunbeget.top^
 ||sluicebigheartedpeevish.com^
@@ -91138,6 +91297,7 @@ zznews.cn#@#.ad-wrapper
 ||somethingrealisticzero.com^
 ||sometimeadministratormound.com^
 ||somewhatwideslimy.com^
+||somnehomerid.qpon^
 ||somsoargous.net^
 ||son-in-lawmorbid.com^
 ||sonar.viously.com^$domain=~aufeminin.com|~futura-sciences.com|~gamekult.com|~jeanmarcmorandini.com|~lesnumeriques.com|~marmiton.org|~melty.fr|~nextplz.fr|~the-race.com
@@ -91305,6 +91465,7 @@ zznews.cn#@#.ad-wrapper
 ||spartollage.top^
 ||spasmodictripscontemplate.com^
 ||spathasandra.top^
+||spatiokayasth.cfd^
 ||spatteramazeredundancy.com^
 ||spcode.baidu.com^
 ||spcwtcizsymxf.site^
@@ -91426,6 +91587,7 @@ zznews.cn#@#.ad-wrapper
 ||spoliaprig.top^
 ||spondeekitling.top^
 ||spongecell.com^
+||sponsordepurge.click^
 ||sponsormob.com^
 ||sponsorpay.com^
 ||sponsors.vuejs.org^
@@ -91545,6 +91707,7 @@ zznews.cn#@#.ad-wrapper
 ||squadapologiesscalp.com^
 ||squalidscrew.com^$third-party
 ||square-direction.com^
+||squaredkarthli.qpon^
 ||squaremouth.com/affiliates/$third-party
 ||squarkpygidia.com^
 ||squashwithholdcame.com^
@@ -92674,6 +92837,7 @@ zznews.cn#@#.ad-wrapper
 ||swurve.com/affiliates/
 ||swvcecehtgehf.space^
 ||swwpush.com^
+||swynulteojjg.com^
 ||sxeythdkvmjyl.online^
 ||sxjkc.cn^
 ||sxlflt.com^
@@ -92721,6 +92885,7 @@ zznews.cn#@#.ad-wrapper
 ||symptomprominentfirewood.com^
 ||symptomslightest.com^
 ||synacast.com^
+||synaxesbouffe.world^
 ||sync.amperwave.net/api/get/magnite/auid=$xmlhttprequest
 ||syncclickflow.com^
 ||synccora.com^
@@ -92823,6 +92988,7 @@ zznews.cn#@#.ad-wrapper
 ||ta.yangkeduo.com^
 ||ta3nfsordd.com^
 ||ta80.com^
+||taabwatts.click^
 ||taadd.com/files/js/site_skin.js
 ||taaqhr6axacd2um.com^
 ||tabici.com^
@@ -93046,6 +93212,7 @@ zznews.cn#@#.ad-wrapper
 ||tarsiusbaconic.com^
 ||tartanecruels.shop^
 ||tartator.com^
+||tartestastound.cfd^
 ||tarvrf.xyz^
 ||tarzanwackes.top^
 ||tashanmp3.com/api/pops/
@@ -93107,6 +93274,7 @@ zznews.cn#@#.ad-wrapper
 ||tbpxjglcypurh.com^
 ||tbqgbyyju.com^
 ||tbsone.imtt.qq.com^
+||tbspraffe.rest^
 ||tbsxkmwsmksjj.buzz^
 ||tbuecdkc.com^
 ||tbugcbayjcyfryl.xyz^
@@ -93351,6 +93519,7 @@ zznews.cn#@#.ad-wrapper
 ||tenzoneinput.shop^
 ||tepid-ability.pro^
 ||tepirhdbauahk.com^
+||tepos.cloud^
 ||tepsmyvnxfssq.space^
 ||teqdutdxiwzwd.one^
 ||terabox.app/api/ad/
@@ -93360,6 +93529,7 @@ zznews.cn#@#.ad-wrapper
 ||teraslassies.top^
 ||terbit2.com^
 ||terbit2.com^$popup
+||tercetsthere.click^
 ||terciogouge.com^
 ||terelinkman.info^
 ||terfumescom.com^
@@ -93551,6 +93721,7 @@ zznews.cn#@#.ad-wrapper
 ||theflirtfiesta.com^
 ||thefreesite.com/nov99bannov.gif
 ||theftdarling.top^
+||theftsacetla.cyou^
 ||thegay.com^$csp=default-src 'self' *.ahcdn.com fonts.gstatic.com fonts.googleapis.com https://thegay.com https://tn.thegay.com 'unsafe-inline' 'unsafe-eval' data: blob:
 ||thegay.com^$script,domain=thegay.com
 ||thegay.porn/gdtatrco/
@@ -93649,6 +93820,7 @@ zznews.cn#@#.ad-wrapper
 ||thingstaste.com^$third-party
 ||thingstorrent.com^
 ||thinkaction.com^$popup
+||thinkerbarbas.qpon^
 ||thinkingaccommodate.com^
 ||thinkitten.com^$third-party
 ||thinksclingingentertainment.com^
@@ -93919,6 +94091,7 @@ zznews.cn#@#.ad-wrapper
 ||tintprestigecrumble.com^
 ||tintyaliyoth.top^
 ||tiny-atmosphere.com^
+||tinyadz.com^$third-party
 ||tinypic.com^$third-party,domain=~cn163.net
 ||tinyplywood.com^
 ||tinyswans.com^$third-party
@@ -93984,6 +94157,7 @@ zznews.cn#@#.ad-wrapper
 ||tj.video.qq.com^
 ||tj.youzanyun.com^
 ||tjaard11.xyz^
+||tjenkaldueled.world^
 ||tjepekenkccqi.online^
 ||tjfavx.icu^
 ||tjimtyi.top^
@@ -94001,6 +94175,7 @@ zznews.cn#@#.ad-wrapper
 ||tjwsg.com^$document
 ||tjwsg.com^$popup
 ||tk.504pk.com^
+||tk.anythinktech.com^
 ||tk001.com/$third-party
 ||tk0x1.com^
 ||tkbo.com^
@@ -94124,6 +94299,7 @@ zznews.cn#@#.ad-wrapper
 ||toaglegi.com^
 ||toamaustouy.com^
 ||toapz.xyz^
+||toarathaujooy.net^
 ||toashapegroo.com^
 ||toawaups.net^
 ||toawhulo.com^
@@ -94928,6 +95104,7 @@ zznews.cn#@#.ad-wrapper
 ||truanet.com^
 ||truazka.xyz^
 ||trucelabwits.com^
+||trucesenode.cyou^
 ||trucestaff.com^
 ||truck1.eu/_BANNERS_/
 ||trucknetuk.com/phpBB2old/sponsors/
@@ -94973,6 +95150,7 @@ zznews.cn#@#.ad-wrapper
 ||trustvarietywee.com^
 ||trustvarietywee.com^$popup
 ||trustworthy-friendship.pro^
+||trustworthytalk.pro^
 ||trustworthyturnstileboyfriend.com^
 ||trustx.org^$third-party
 ||trusty-research.com^
@@ -95178,6 +95356,7 @@ zznews.cn#@#.ad-wrapper
 ||tumri.net^
 ||tumultdishearten.com^
 ||tundrafolder.com^$popup
+||tuneboumpired.qpon^
 ||tunefatigueclarify.com^
 ||tunefeeterou.net^
 ||tungospacker.com^
@@ -95227,6 +95406,7 @@ zznews.cn#@#.ad-wrapper
 ||turnstileunavailablesite.com^
 ||turnstileunavailablesite.com^$popup
 ||tururu.info^
+||tuskardowers.help^
 ||tusno.com^
 ||tussisinjelly.com^
 ||tusslestransp.shop^
@@ -95441,6 +95621,7 @@ zznews.cn#@#.ad-wrapper
 ||tzaho.com^
 ||tzaqkp.com^
 ||tzaqkp.com^$popup
+||tzarslegger.digital^
 ||tzbtw.com^
 ||tzegilo.com^
 ||tzepbopyvsdav.site^
@@ -95546,6 +95727,7 @@ zznews.cn#@#.ad-wrapper
 ||ubeestis.net^
 ||ubercpm.com^$third-party
 ||ubgneblgrosii.site^
+||ubhefpiyqjfi.com^
 ||ubilinkbin.com^
 ||ubilinkbin.com^$popup
 ||ubiquitousyard.com^$third-party
@@ -95903,6 +96085,7 @@ zznews.cn#@#.ad-wrapper
 ||uncrobator.com^
 ||uncrookcurry.com^
 ||uncrownarmenic.com^
+||undaymidydle.com^
 ||under2given.com^
 ||underagebeneath.com^
 ||underclick.ru^
@@ -96127,6 +96310,7 @@ zznews.cn#@#.ad-wrapper
 ||unusualtitle.com^$third-party
 ||unusualvirus.pro^
 ||unuwiltoud.com^
+||unvjcdfyqtexd.store^
 ||unwantedpointingwaspish.com^
 ||unwarptroaked.shop^
 ||unwaryunpegs.top^
@@ -96330,6 +96514,7 @@ zznews.cn#@#.ad-wrapper
 ||us.l.qq.com^
 ||us4post.com^
 ||usainoad.net^
+||usanttroner.click^
 ||usbrowserspeed.com^
 ||useful-fear.pro^
 ||usefulcontentsites.com^
@@ -96459,6 +96644,7 @@ zznews.cn#@#.ad-wrapper
 ||uveamiskept.shop^
 ||uveitismaul.rest^
 ||uvekyvs.icu^
+||uvgaamfvwsgaa.online^
 ||uviu.com/_xd/
 ||uvnmfjwrbvkes.online^
 ||uvoashaurgeeph.com^
@@ -96702,6 +96888,7 @@ zznews.cn#@#.ad-wrapper
 ||vauloops.net^
 ||vaultwrite.com^
 ||vauphwgisneug.life^
+||vaushoowhie.com^
 ||vavuwetus.com^
 ||vavywfsfldhpb.space^
 ||vawk0ap3.xyz^
@@ -96817,6 +97004,7 @@ zznews.cn#@#.ad-wrapper
 ||velocecdn.com^
 ||velocitycdn.com^
 ||velocitycdn.com^$popup
+||velodeficit.shop^
 ||velodran.com^
 ||velodran.com^$popup
 ||velsirtohoosh.net^
@@ -97124,6 +97312,8 @@ zznews.cn#@#.ad-wrapper
 ||viigetxc.com^$popup
 ||viiigle.com^
 ||viiithia.com^$popup
+||viijxyqp.com^
+||viijxyqp.com^$popup
 ||viikttcq.com^$popup
 ||viiyutty.com^
 ||viiyutty.com^$document
@@ -97196,6 +97386,7 @@ zznews.cn#@#.ad-wrapper
 ||virelon.com^$document
 ||virelon.com^$popup
 ||vireshrill.top^
+||virgildal.world^
 ||virginityneutralsouls.com^
 ||virirsamtebsirt.com^
 ||virool.com/widgets/
@@ -97451,6 +97642,7 @@ zznews.cn#@#.ad-wrapper
 ||vp.html5.qq.com^
 ||vpbigdsnehwam.today^
 ||vpbpb.com^
+||vpcxpowqzvdz.com^
 ||vpdnjl.xyz^
 ||vphfcftukjmnf.site^
 ||vpic.video.qq.com^
@@ -97542,6 +97734,7 @@ zznews.cn#@#.ad-wrapper
 ||vserv.mobi^
 ||vsexshop.ru^$third-party
 ||vsgyfixkbow.com^
+||vshujjdvemznb.store^
 ||vsimg.com/h2.js
 ||vsimyppptdxdo.site^
 ||vsjavu.top^
@@ -97795,6 +97988,7 @@ zznews.cn#@#.ad-wrapper
 ||wallochmm.shop^
 ||wallowwholike.com^
 ||wallpapersfacts.com^
+||wallsnurls.com^
 ||walter-larence.com^$popup
 ||walterobviate.top^
 ||walthchichis.shop^
@@ -97859,6 +98053,7 @@ zznews.cn#@#.ad-wrapper
 ||wargaming-aff.com^$popup
 ||wargfybaqc.com^
 ||warkingsudani.top^
+||warkslaxer.qpon^
 ||warliketruck.com^
 ||warlockstallioniso.com^
 ||warm-course.pro^
@@ -97981,6 +98176,7 @@ zznews.cn#@#.ad-wrapper
 ||wbidr.com^
 ||wbilvnmool.com^
 ||wbilvnmool.com^$popup
+||wbiskyenhrwvx.website^
 ||wbkdsg.xyz^
 ||wbkokfwzpfuai.life^
 ||wbllomblyyjk.top^
@@ -98020,6 +98216,7 @@ zznews.cn#@#.ad-wrapper
 ||wdamcse.top^
 ||wdbrdvynuov.xyz^
 ||wdcwmeklhgnfc.xyz^
+||wdfnddxstfxpq.website^
 ||wdibwgllvzies.love^
 ||wdickee.top^
 ||wdig.vo.llnwd.net^
@@ -98401,6 +98598,7 @@ zznews.cn#@#.ad-wrapper
 ||whitepinaforesho.org^
 ||whivymmauy.com^
 ||whizzco.com^$third-party
+||whizzerrapiner.com^
 ||whkbqnkscmnwo.global^
 ||whkksgddogqbi.online^
 ||whnews.cn/wh_public/xuxu/
@@ -98978,6 +99176,7 @@ zznews.cn#@#.ad-wrapper
 ||wqakfaolcyewihl.com^
 ||wqgpzmpwuchvi.one^
 ||wqkjeoqjzmmyo.online^
+||wqmnhaxnmdvdu.space^
 ||wqmnnnsigesgf.online^
 ||wqmnwzzwaia.com^
 ||wqq881m8uwq1k5m-4p7lv7.xyz^
@@ -99138,6 +99337,7 @@ zznews.cn#@#.ad-wrapper
 ||wwbdayuvbvrsr.rocks^
 ||wwc.alicdn.com/avatar/getAvatar.do?userId=
 ||wwcnmte.top^
+||wwdydaswlnbewyc.xyz^
 ||wwedqxjciwadhdf.com^
 ||wweisie.top^
 ||wweizae.top^
@@ -99350,6 +99550,7 @@ zznews.cn#@#.ad-wrapper
 ||wwwpromoter.com^
 ||wwwpromoter.com^$popup
 ||wwwwzerblvvqv.top^
+||wwwwzerbmokej.top^
 ||wwwwzerbmoozw.top^
 ||wwwxxx.uno/pop-code.js
 ||wwwxxx.uno/taco-code.js
@@ -99412,6 +99613,7 @@ zznews.cn#@#.ad-wrapper
 ||wynvalur.com^
 ||wysasys.com^
 ||wystykolis.top^
+||wytingdammit.world^
 ||wyunion.com^
 ||wyvgwkupgpdrd.website^
 ||wyvlllooalelk.top^
@@ -99930,6 +100132,7 @@ zznews.cn#@#.ad-wrapper
 ||xqkbwyyptldky.store^
 ||xqldndcgi.com^
 ||xqrydt.icu^
+||xqsfsvngpzsns.store^
 ||xqwcchybybnro.com^
 ||xqwrdegbmdfrv.top^
 ||xqxgcdhfkccgg.site^
@@ -99940,7 +100143,9 @@ zznews.cn#@#.ad-wrapper
 ||xrlzhk.top^
 ||xroabnrze.com^
 ||xrrdi.com^
+||xrrncmyx.com^
 ||xrtzf.com^
+||xrus.cn^
 ||xs.houyi.baofeng.net^
 ||xs177.com/js/dibu.js
 ||xs177.com/js/nei.js
@@ -100190,6 +100395,7 @@ zznews.cn#@#.ad-wrapper
 ||yajeinsogged.shop^$popup
 ||yajjppbbzrxfk.space^
 ||yakmakhond.top^
+||yakonanabush.click^
 ||yaksbuceros.com^
 ||yalingba.com/ggtxjs/
 ||yallarec.com^
@@ -100548,7 +100754,6 @@ zznews.cn#@#.ad-wrapper
 ||yokeeroud.com^
 ||yokesdolmen.com^
 ||yomeno.xyz^
-||yomovies.repair^
 ||yomxt.icu^
 ||yonabrar.com^
 ||yonazurilla.com^
@@ -100824,6 +101029,7 @@ zznews.cn#@#.ad-wrapper
 ||yvqmzci.cn^
 ||yvzgazds6d.com^
 ||ywaopskepixw.com^
+||ywcpuyoqiwpsq.website^
 ||ywdyawksjecjv.store^
 ||ywexnakh.com^
 ||ywg.jobui.com^
@@ -100847,6 +101053,7 @@ zznews.cn#@#.ad-wrapper
 ||yxdown.com/open/$script
 ||yxdown.com/open/down_ad_
 ||yxdown.com/zt/zt/js/zt.js
+||yxfonngimsmggbg.com^
 ||yximgs.com/bs2/adcarsku/*.gif
 ||yxjcyxy.icu^
 ||yxlady.com/cdd/201005/$script
@@ -100985,6 +101192,7 @@ zznews.cn#@#.ad-wrapper
 ||zcnmjb.icu^
 ||zcnnn.com^
 ||zcnphmujdzzqg.site^
+||zcode17.com^
 ||zconfig.alibabausercontent.com^
 ||zcoptry.com^
 ||zcoup.com^
@@ -101013,6 +101221,7 @@ zznews.cn#@#.ad-wrapper
 ||zealsalts.com^
 ||zebeaa.click^
 ||zebeaa.click^$popup
+||zebecksfisted.world^
 ||zebjlmmqqblko.top^
 ||zebjlmmqqblqz.top^
 ||zebjlmmqqbwvb.top^
@@ -101030,6 +101239,7 @@ zznews.cn#@#.ad-wrapper
 ||zeelooshashey.net^
 ||zeepartners.com^
 ||zeepartners.com^$popup
+||zeeptifemoo.com^
 ||zeeshith.net^
 ||zeewheekaucoust.net^
 ||zehnercredal.top^
@@ -101039,6 +101249,7 @@ zznews.cn#@#.ad-wrapper
 ||zelatorpukka.com^
 ||zelllwrite.com^
 ||zemanta.com^$third-party
+||zemmichive.life^
 ||zenal.xyz^
 ||zenaps.com^$popup
 ||zendplace.pro^
@@ -101312,6 +101523,7 @@ zznews.cn#@#.ad-wrapper
 ||zoadovachounu.com^
 ||zoagajethathoo.net^
 ||zoagremo.net^
+||zoajoathee.com^
 ||zoawufoy.net^
 ||zocfdghtctsux.online^
 ||zodiacdinner.com^
@@ -101520,6 +101732,7 @@ zznews.cn#@#.ad-wrapper
 ||zx98.com/mm/$script
 ||zxcdn.com^
 ||zxfqtqmtlldld.world^
+||zxid-m.mobileservice.cn^
 ||zxiws.cn^
 ||zxpaa.xyz^
 ||zxqiwe.cn^
