@@ -2,7 +2,7 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自AdGuard，以及补充的一些规则
 ! Homepage: https://github.com/psychosispy/adblock
-! Version: 2025-08-01 20:27:08
+! Version: 2025-08-02 08:30:08
 ! Total count: 103647
 
 ###AC_ad
@@ -29666,8 +29666,6 @@ ha.xinhuanet.com##[height="70px"]
 haaretz.com#?#section[data-test="zapp"] > div[class] > div[class]:has(> div[class] > div[class] >  div.js-dfp-ad)
 haber.sol.org.tr##div[style^="height:200px;"][style*="width:100%;"]
 haber7.com###makroo-sticky-adunit
-haberaktuel.com###android-install-banner
-haberaktuel.com###windows-install-banner
 haberler.com###video_befor[style^="width:"]:empty
 haberler.com##body > input[type="hidden"] + div[style]
 haberler.com##div[id^="ana_mobile_336x280_"]
@@ -31516,6 +31514,7 @@ jahannews.com##.stickadtop
 jahannews.com##.stickadtop + span.collapse_close
 jaitoutcompris.com###antiBlock
 jakartaglobe.id##.underlay-ad
+jalan.net##.dwldiv
 jalan.net##.jlnsp-banner-frame
 jalan.net##.jlnsp-iframeItems
 jalan.net##.jsc-top__specialAdArea
@@ -40125,8 +40124,6 @@ sportingnews.com##.top-mpu-container
 sportingnews.com##[data-testid="outbrain-block"]
 sportiva.shueisha.co.jp###piano-widget-hand-picked-posts
 sportiva.shueisha.co.jp###piano-widget-hand-picked-posts + div.block-banner-a-a
-sportler.com##div[id="arealayoutrowarea-row-4"]
-sportler.com##div[id="arealayoutrowarea-row-5"]
 sportmail.ru##div[data-logger="PortalMenuPromo"]
 sports-ndtv-com.cdn.ampproject.org,ndtv.com##amp-iframe[src^="https://drop.ndtv.com/common/gadgets360/pricee/pricee-widget.html?"]
 sports.kz##.hbnr
@@ -40493,6 +40490,7 @@ surfsnow.jp#$?#.modaal-overlay { display: none !important; }
 surinenglish.com##.publiTop
 surinenglish.com##.roba
 surinenglish.com##.v-adv
+suruga-ya.jp#$#.alert-top-page + .navbar.fixed-top + section { margin-top: 0 !important; }
 survivopedia.com##.svp_campaign_main
 survivopedia.com##[onclick="recordClick("]
 sushi.ski##.xuKt2
@@ -40501,6 +40499,8 @@ suslusozluk.com###sticky
 susongbbs.com#@#.ad_banner
 sussexexpress.co.uk##.cIffkq
 sutekinakijo.com,syurabahazard.com##div[id^="articleAd"]
+suumo.jp###js-app-banner
+suumo.jp##.appbnr
 suzuri.jp##.footer-app-banner
 sv.baidu.com##[data-type="ec-feed"],[data-pagepd^="web_tuiguang"]
 svethuawei.eu###mobile-pop-up-ad
