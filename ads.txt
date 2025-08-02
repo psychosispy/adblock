@@ -2,8 +2,8 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自AdGuard，以及补充的一些规则
 ! Homepage: https://github.com/psychosispy/adblock
-! Version: 2025-08-02 08:30:08
-! Total count: 103647
+! Version: 2025-08-02 20:25:39
+! Total count: 103661
 
 ###AC_ad
 ###AD_160
@@ -15034,7 +15034,12 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 *-160-600.jpg|$image
 *-300X250.$image,object
 *-980x60.gif$image
+*-ad.sm.cn*
+*-ad.video.yximgs.com*
+*-ad.wtzw.com*
 *-ads-$script
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
 *-stats.jpush.cn^
 *.91ivr.
 *.91wan.
@@ -26557,7 +26562,6 @@ douguo.com###dlayer
 doujin-eromanga.com###sp_header
 doujin-eromanga.com##.moemorankad2
 doujin-freee.com##div[style="width: 100%; height: 0px; position: fixed; top: 0px; z-index: 2147483647;"]
-doujinantena.top##.home-h:has(> a[href^="https://stripchat.com/"])
 doujinantena.top##div[style*="width: 300px; height: 250px;"]
 doupapa.com,dpp2019.com##.ad-body,.couplet_9cb0d,.dibu_9cb0d
 douploads.net##a[href^="https://href.li/?"]
@@ -30408,6 +30412,7 @@ howtogeek.com,www-howtogeek-com.cdn.ampproject.org##.adfullwrap
 hoyolab.com##.bbs-qr
 hoyolab.com##.mhy-download-section
 hpcwire.com###text-115
+hpjav.in,momon-ga.com,book18.fans,nyahentai.re,asmr18.fans,jav.direct,openload.mov,doujinantena.top,popjav.in,javmix.tv##.home-h:has(+ div[style^="margin: -12px -1"] > div[style^="max-width: 1"][style*="height"][style*="margin: 0 auto"])
 hpjav.top##div[class^="happy-"]
 hpjav.tv##body > div[style^="position: fixed;"]
 hq4x.com##[src="http://www.9977xx.com/bbs/"],[name^="ad"]
@@ -46451,6 +46456,7 @@ zznews.cn#@#.ad-wrapper
 ||1r8435gsqldr.com^
 ||1redirb.com^
 ||1redirb.com^$popup
+||1rtb.com^
 ||1rx.io^
 ||1rxntv.io^
 ||1s1r7hr1k.de^
@@ -48468,6 +48474,7 @@ zznews.cn#@#.ad-wrapper
 ||a.llysc.cn^
 ||a.lz13.cn/
 ||a.lz13.cn^
+||a.market.xiaomi.com^
 ||a.mfcad.net^
 ||a.miyudaquan.top^
 ||a.nowscore.com^
@@ -49602,6 +49609,7 @@ zznews.cn#@#.ad-wrapper
 ||adinplay.workers.dev^$third-party
 ||adintend.com^$third-party
 ||adinterax.com^$third-party
+||adintl.cn^
 ||adinvigorate.com^$third-party
 ||adipolo.com^$third-party
 ||adipolosolutions.com^$third-party
@@ -50599,6 +50607,7 @@ zznews.cn#@#.ad-wrapper
 ||adx.
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
+||adx.adwangmai.com^
 ||adx.appsdk.com.cn^
 ||adx.io^$popup,third-party
 ||adx.io^$third-party
@@ -61758,6 +61767,7 @@ zznews.cn#@#.ad-wrapper
 ||data.chsmarttv.com^
 ||data.game.xiaomi.com/1px.gif
 ||data.hicloud.com:8089^$app=com.huawei.hwvplayer.youku
+||data.hicloud.com^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
 ||data.mistat.xiaomi.com^
@@ -96838,6 +96848,7 @@ zznews.cn#@#.ad-wrapper
 ||ubilinkbin.com^
 ||ubilinkbin.com^$popup
 ||ubiquitousyard.com^$third-party
+||ubixioe.com^
 ||ublasklnrnifs.site^
 ||ublockpop.com^$popup
 ||ubm-us.net/oas/nativead/js/nativead.js
@@ -98728,6 +98739,7 @@ zznews.cn#@#.ad-wrapper
 ||vlfwmisq.com^
 ||vlguxbnvifuhp.space^
 ||vliaflkwqwpg.com^
+||vlion.cn^
 ||vlitag.com^
 ||vlive.qqvideo.tc.qq.com^
 ||vlivqjkfpdjce.space^
@@ -102194,6 +102206,7 @@ zznews.cn#@#.ad-wrapper
 ||yf9pkk1q.com^$popup
 ||yfaagzkhqcjxm.site^
 ||yfaefvboqjvoi.website^
+||yfanads.com^
 ||yfaqgk.xyz^
 ||yfasjfk.icu^
 ||yferedidymis.cfd^
@@ -103066,6 +103079,7 @@ zznews.cn#@#.ad-wrapper
 ||zhangyue.com/zycl/api/ad^
 ||zhangyumo.top^
 ||zhangyunxiawinner.top^
+||zhangyuyidong.cn^
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhannei-dm.csdn.net^
 ||zhanqi.tv/api/static/v2.1/actives.lists/
