@@ -2,8 +2,8 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自AdGuard，以及补充的一些规则
 ! Homepage: https://github.com/psychosispy/adblock
-! Version: 2025-08-02 20:25:39
-! Total count: 103661
+! Version: 2025-08-03 08:30:16
+! Total count: 103646
 
 ###AC_ad
 ###AD_160
@@ -16066,17 +16066,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 /*AdapterNew.
 /*xmtl$domain=xhxswz.com|biqubao.com
-/.*.1rtb.com/
-/.*.a.market.xiaomi.com/
-/.*.ad.gameley.com/
-/.*.adintl.cn/
-/.*.adx.adwangmai.com/
-/.*.data.hicloud.com/
-/.*.log.aliyuncs.com/
-/.*.ubixioe.com/
-/.*.vlion.cn/
-/.*.yfanads.com/
-/.*.zhangyuyidong.cn/
+//
 /0mbjs/2800av*.js
 /1.js?ssfrid=$script,third-party
 /120-600-
@@ -16272,13 +16262,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /Text_AD
 /View/img/b72890.jpg
 /[0-9]{1,2}\/[0-9]{5,6}\.js/$script,third-party
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com/
-/[a-zA-Z0-9.-]*-ad.sm.cn/
-/[a-zA-Z0-9.-]*-ad.video.yximgs.com/
-/[a-zA-Z0-9.-]*-ad.wtzw.com/
-/[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com/
-/[a-zA-Z0-9.-]*-normal.zijieapi.com/
 /[a-z]+\d+\.cnzz\./
 /\(com\?\d+/$third-party
 /\.[a-z]+[\:\/]/$~image,third-party,domain=tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
@@ -17965,6 +17948,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 10minutemail.net###leftover,#right
 10minutemail.net##.leftXL
 10minutemail.net,eel.surf7.net.my###right
+10minutesemail.net##main.tm-drax-content > div[style^="display:"]
 10movs.com##.top_banner
 10pan.cc###dl_tips,#b1
 10pan.cn##[style="height:60px;"],#r1,.adsbygoogle,#b1
@@ -22286,6 +22270,8 @@ asahi.com##div[x-component-name="SmartBanner"]
 asahi.com##li.FeatureBox_list
 asahi.com#?#li > div[id^="ad-rellink"]:upward(1)
 asajikan.jp##+js(set-cookie, header-guidance-close, true)
+asajikan.jp##.apri_b_pc
+asajikan.jp##.apri_b_sp
 asajo.jp###text-15
 asajo.jp##.ad-area-upper
 ascii-code.com##.text-center.mb-3
@@ -24791,7 +24777,6 @@ citationmachine.net##.adds-wrapper
 citilink.ru##div[class*="app-catalog-"] > div[class*="app-catalog-"]:has(> div[class*="app-catalog-"] > div[class*="app-catalog-"] > span:contains(Скачайте приложение))
 citimuzik.com##div[class*="ai-viewport-"]
 citizen.digital##.mid-article-ad
-citrus.ua#$#html { overflow: visible !important; }
 city.living.jp##.ad-area-l
 city.tsuyama.lg.jp##.mb20 > .pos_ac
 cityam.com##.notice-header
@@ -29207,7 +29192,6 @@ glasgowtimes.co.uk,heraldseries.co.uk,somersetcountygazette.co.uk##.mar-leaderbo
 glassdoor.com.hk##div[id^="SmarterBanner"]
 glasswire.com##.glasswire-android
 glasswire.com##.try-glasswire
-glavcom.ua##.banner_amp
 glavcom.ua##amp-iframe[src^="https://go.rcvlink.com/"]
 glavred.info##.infinite-item > div[style^="height"]:has(> div.bnr-block__ad)
 glavred.info##div[style*="display: flex; height:250px;"]
@@ -33480,6 +33464,7 @@ m.haberturk.com###s300x200Sticky
 m.haberturk.com##a[data-newscategory="Advertorial"]
 m.habr.com##.tm-projects-blocks_courses
 m.hao123.com##a.hdbanner,.pop-news,[id^="colorBlock"].color-block
+m.happymoney.co.kr##.recommendAppWrap
 m.hc360.com##div#globalCgtTop
 m.hclips.com##.container > .section--normal[style^="margin-top:"] > .section__panel.text-center
 m.hclips.com##div#pane_related[role="tabpanel"] > .collapse.in
@@ -36868,6 +36853,7 @@ patriotnewsfeed.com##.custom-html-widget [href] > [src]
 patrioty.org.ua###ad_pu_modal
 paultan.org##.wrapper-footer
 pausecafein.fr###adb-pop
+pay.rakuten.co.jp###bt-download
 paycalculator.com.au##.jss336
 paycalculator.com.au##.jss546
 paycell.com.tr#$##smartbanner { display: none !important; }
@@ -39135,7 +39121,6 @@ seafoodsource.com##.article__in-article-ad
 search.avast.com###AsbAdContainer
 search.b1.org##.adslabel
 search.brave.com###shopping
-search.brave.com##.download-button
 search.brave.com##.download-cta
 search.brave.com##.mobile-promo-content-wrapper
 search.brave.com##.sponsored-unit_wrapper
@@ -40328,6 +40313,7 @@ stocktwits.com##.w-\[300px\]
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
 stolica-s.su##.ad-fullscreen
 stolichki.ru##div[data-hint="app"]
+stolichki.ru#$##main-app__block { display: none !important; }
 stolichki.ru#$#div[class^="secondMenu__wrapper"] { top: 0 !important; }
 stoneip.info###text-57
 stoneip.info##[id^="aswift_"],.adsbygoogle,[class^="advertising"]
@@ -41680,7 +41666,6 @@ tlgrm.eu##.channel-feed__brick:has(.adsbyexoclick)
 tlidb.com##[href="https://tap.io/MFOnPjs"] > img
 tlidb.com##[href^="https://torchlight.xd."] > img
 tltds.cn###content > div.main:first-child > div.container.content-box > section.sousuo
-tmailor.com##.noti-download-app
 tmall-sp.wamgame.jp###geniee_overlay_margin
 tmall.com###J_BottomSmartBanner
 tmall.com##.app-download-popup
